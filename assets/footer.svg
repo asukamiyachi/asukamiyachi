@@ -1,0 +1,7 @@
+<svg width="1120" height="136" viewBox="0 0 1120 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1120" y2="136"><stop stop-color="#06121E"/><stop offset=".5" stop-color="#0A1327"/><stop offset="1" stop-color="#160C2A"/></linearGradient><linearGradient id="a" x1="360" y1="0" x2="760" y2="0"><stop stop-color="#22D3EE"/><stop offset=".5" stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
+<rect x="1" y="1" width="1118" height="134" rx="24" fill="url(#bg)" stroke="#253247" stroke-width="2"/>
+<rect x="350" y="30" width="420" height="3" rx="1.5" fill="url(#a)"/>
+<text x="560" y="72" text-anchor="middle" fill="#F8FAFC" font-size="21" font-family="Inter,system-ui,sans-serif" font-weight="800">BUILD → SHIP → LEARN → REPEAT</text>
+<text x="560" y="101" text-anchor="middle" fill="#7C8CA3" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" letter-spacing="1.4">ASUKA MIYACHI · GITHUB.COM/ASUKAMIYACHI</text>
+</svg>
