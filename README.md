@@ -62,16 +62,11 @@ I build software, AI systems, robotics experiments, and tools — then learn fro
 
 <br/>
 
-<table>
-<tr>
-<td width="25%" valign="top"><b>AI</b><br/><sub>LLM applications<br/>Local AI<br/>Behavior Cloning<br/>Reinforcement Learning</sub></td>
-<td width="25%" valign="top"><b>ROBOTICS</b><br/><sub>Physical AI<br/>MuJoCo<br/>FRC / FTC<br/>Hardware × Software</sub></td>
-<td width="25%" valign="top"><b>PRODUCT</b><br/><sub>Flutter<br/>Firebase<br/>UI / UX<br/>User research</sub></td>
-<td width="25%" valign="top"><b>SYSTEMS</b><br/><sub>macOS tooling<br/>Automation<br/>Git / GitHub<br/>Developer experience</sub></td>
-</tr>
-</table>
+<img src="./assets/areas.svg" width="100%" alt="AI, robotics, product and systems focus areas" />
 
-> **Think big. Start concrete. Ship something. Learn from reality. Improve the system.**
+<br/>
+
+<p align="center"><b>Think big. Start concrete. Ship something. Learn from reality. Improve the system.</b></p>
 
 <br/><br/>
 
@@ -102,10 +97,6 @@ I want to understand enough of **technology, people, business, and scale** to bu
 
 <br/><br/>
 
-<div align="center">
-
-### Build → Ship → Learn → Repeat
-
-<sub>Asuka Miyachi · Kamiyama Marugoto College · Japan</sub>
-
-</div>
+<a href="https://github.com/asukamiyachi?tab=repositories">
+<img src="./assets/footer.svg" width="100%" alt="Build, ship, learn, repeat — view all repositories" />
+</a>
