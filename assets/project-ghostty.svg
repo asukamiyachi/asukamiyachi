@@ -1,0 +1,11 @@
+<svg width="560" height="230" viewBox="0 0 560 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="20" y1="20" x2="540" y2="210"><stop stop-color="#0E1823"/><stop offset="1" stop-color="#080C12"/></linearGradient><linearGradient id="a" x1="34" y1="0" x2="300" y2="0"><stop stop-color="#34D399"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+<rect x="1" y="1" width="558" height="228" rx="22" fill="url(#g)" stroke="#233B3E" stroke-width="2"/>
+<rect x="34" y="30" width="105" height="30" rx="15" fill="#052E2B" stroke="#0F766E"/><text x="50" y="50" fill="#6EE7B7" font-size="12" font-family="ui-monospace,monospace" font-weight="700" letter-spacing="1">DEV ENV</text>
+<text x="34" y="98" fill="#F8FAFC" font-size="25" font-family="Inter,system-ui,sans-serif" font-weight="800">Ghostty Terminal</text>
+<text x="34" y="128" fill="#94A3B8" font-size="14" font-family="Inter,system-ui,sans-serif">AURORA cockpit for daily development</text>
+<text x="34" y="158" fill="#CBD5E1" font-size="13" font-family="ui-monospace,monospace">Ghostty · zsh · Starship · Lua</text>
+<rect x="34" y="186" width="250" height="3" rx="1.5" fill="url(#a)"/>
+<g transform="translate(436 49)"><rect width="86" height="66" rx="15" fill="#071D1B" stroke="#14B8A6" stroke-opacity=".6"/><path d="M20 23L33 33L20 43" stroke="#5EEAD4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M41 44H65" stroke="#22D3EE" stroke-width="4" stroke-linecap="round"/></g>
+<text x="437" y="150" fill="#5F7775" font-size="11" font-family="ui-monospace,monospace">03 / TOOLING</text>
+</svg>
