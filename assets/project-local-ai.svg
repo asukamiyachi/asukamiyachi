@@ -1,0 +1,11 @@
+<svg width="560" height="230" viewBox="0 0 560 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="20" y1="20" x2="540" y2="210"><stop stop-color="#17102A"/><stop offset="1" stop-color="#0B0A16"/></linearGradient><linearGradient id="a" x1="34" y1="0" x2="290" y2="0"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#EC4899"/></linearGradient></defs>
+<rect x="1" y="1" width="558" height="228" rx="22" fill="url(#g)" stroke="#38295A" stroke-width="2"/>
+<rect x="34" y="30" width="104" height="30" rx="15" fill="#2E1065" stroke="#5B21B6"/><text x="50" y="50" fill="#C4B5FD" font-size="12" font-family="ui-monospace,monospace" font-weight="700" letter-spacing="1">LOCAL AI</text>
+<text x="34" y="98" fill="#F8FAFC" font-size="25" font-family="Inter,system-ui,sans-serif" font-weight="800">Local AI Debate</text>
+<text x="34" y="128" fill="#A8A0BA" font-size="14" font-family="Inter,system-ui,sans-serif">Multi-role AI discussion visualizer</text>
+<text x="34" y="158" fill="#D6D3E3" font-size="13" font-family="ui-monospace,monospace">C · Ollama · Node.js · Web UI</text>
+<rect x="34" y="186" width="250" height="3" rx="1.5" fill="url(#a)"/>
+<g transform="translate(436 51)"><rect width="84" height="62" rx="17" fill="#211238" stroke="#7C3AED" stroke-opacity=".6"/><circle cx="23" cy="31" r="8" fill="#A78BFA"/><circle cx="42" cy="31" r="8" fill="#60A5FA"/><circle cx="61" cy="31" r="8" fill="#F472B6"/></g>
+<text x="437" y="150" fill="#6D6280" font-size="11" font-family="ui-monospace,monospace">02 / AI UX</text>
+</svg>
