@@ -4,22 +4,32 @@
 
 <br/>
 
-**Student builder at Kamiyama Marugoto College.**  
-I build software, AI systems, robotics experiments, and tools — then learn from what actually works.
+<img src="./assets/status.svg" width="100%" alt="Current mode, focus and direction" />
 
 <br/>
 
-<a href="https://github.com/asukamiyachi?tab=repositories"><b>Explore repositories →</b></a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#selected-work"><b>Selected work</b></a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#now"><b>Now</b></a>
+<a href="#selected-work"><b>WORK</b></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#build-system"><b>SYSTEM</b></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#stack"><b>STACK</b></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#now"><b>NOW</b></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/asukamiyachi?tab=repositories"><b>ALL REPOS ↗</b></a>
+
+<br/><br/>
+
+**Student builder at Kamiyama Marugoto College.**  
+I build software, AI systems, robotics experiments, and tools — then learn from what actually works.
 
 </div>
 
 ---
 
-## Selected work
+<a id="selected-work"></a>
+<sub>01 / SELECTED WORK</sub>
+## Projects built to learn from reality
 
 <table>
 <tr>
@@ -48,65 +58,40 @@ I build software, AI systems, robotics experiments, and tools — then learn fro
 </tr>
 </table>
 
-<p align="center"><sub>Click a card to open the repository.</sub></p>
+<p align="right"><sub>Each card links directly to the repository ↗</sub></p>
 
 ---
 
-## How I build
+<a id="build-system"></a>
+<sub>02 / BUILD SYSTEM</sub>
+## Ambitious direction. Concrete iteration.
 
 <img src="./assets/build-flow.svg" width="100%" alt="Idea to Build to Ship to Learn to Scale" />
+
+<table>
+<tr>
+<td width="25%" valign="top"><b>AI</b><br/><sub>LLM applications<br/>Local AI<br/>Behavior Cloning<br/>Reinforcement Learning</sub></td>
+<td width="25%" valign="top"><b>ROBOTICS</b><br/><sub>Physical AI<br/>MuJoCo<br/>FRC / FTC<br/>Hardware × Software</sub></td>
+<td width="25%" valign="top"><b>PRODUCT</b><br/><sub>Flutter<br/>Firebase<br/>UI / UX<br/>User research</sub></td>
+<td width="25%" valign="top"><b>SYSTEMS</b><br/><sub>macOS tooling<br/>Automation<br/>Git / GitHub<br/>Developer experience</sub></td>
+</tr>
+</table>
 
 > **Think big. Start concrete. Ship something. Learn from reality. Improve the system.**
 
 ---
 
-## What I work across
+<a id="stack"></a>
+<sub>03 / STACK</sub>
+## Tools I use to turn ideas into systems
 
-<table>
-<tr>
-<td width="25%" valign="top">
-
-### AI
-LLM applications  
-Local AI  
-Behavior Cloning  
-Reinforcement Learning
-
-</td>
-<td width="25%" valign="top">
-
-### Robotics
-Physical AI  
-MuJoCo  
-FRC / FTC  
-Hardware × Software
-
-</td>
-<td width="25%" valign="top">
-
-### Product
-Flutter  
-Firebase  
-UI / UX  
-User research
-
-</td>
-<td width="25%" valign="top">
-
-### Systems
-macOS tooling  
-Automation  
-Git / GitHub  
-Developer experience
-
-</td>
-</tr>
-</table>
+<img src="./assets/stack.svg" width="100%" alt="Technology stack" />
 
 ---
 
 <a id="now"></a>
-## Now
+<sub>04 / NOW</sub>
+## What I am optimizing for now
 
 ```text
 BUILDING     Physical AI systems and developer tools
@@ -115,20 +100,14 @@ EXPLORING    Products that can create new behavior and new markets
 PRINCIPLE    Ambition in the goal, concreteness in the next action
 ```
 
-### Current toolkit
-
-`Python` · `C` · `Dart` · `Flutter` · `Swift` · `TypeScript` · `JavaScript` · `Lua`  
-`Firebase` · `Node.js` · `MuJoCo` · `Git` · `GitHub` · `Docker` · `Figma` · `VS Code`
-
 ---
 
-## Direction
+<sub>05 / DIRECTION</sub>
+## From code on a screen to systems in the world
 
 <table>
 <tr>
 <td width="58%" valign="top">
-
-### From code to systems
 
 I want to understand enough of **technology, people, business, and scale** to build products that move beyond a demo and become systems people actually use.
 
