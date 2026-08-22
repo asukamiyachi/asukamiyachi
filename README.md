@@ -141,6 +141,18 @@ flowchart LR
     E --> F[Ship]
     F --> G[Scale]
     G -. next challenge .-> A
+
+    classDef idea fill:#DBEAFE,stroke:#2563EB,color:#0F172A,stroke-width:2px;
+    classDef build fill:#EDE9FE,stroke:#7C3AED,color:#0F172A,stroke-width:2px;
+    classDef learn fill:#CCFBF1,stroke:#0F766E,color:#0F172A,stroke-width:2px;
+    classDef ship fill:#DCFCE7,stroke:#16A34A,color:#0F172A,stroke-width:2px;
+    classDef scale fill:#FEF3C7,stroke:#D97706,color:#0F172A,stroke-width:2px;
+
+    class A idea;
+    class B,C build;
+    class D,E learn;
+    class F ship;
+    class G scale;
 ```
 
 > **Think big. Start concrete. Ship. Learn. Repeat.**
