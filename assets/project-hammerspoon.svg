@@ -1,0 +1,11 @@
+<svg width="560" height="230" viewBox="0 0 560 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="20" y1="20" x2="540" y2="210"><stop stop-color="#1A1208"/><stop offset="1" stop-color="#0D0A06"/></linearGradient><linearGradient id="a" x1="34" y1="0" x2="300" y2="0"><stop stop-color="#F59E0B"/><stop offset="1" stop-color="#FB7185"/></linearGradient></defs>
+<rect x="1" y="1" width="558" height="228" rx="22" fill="url(#g)" stroke="#4B3720" stroke-width="2"/>
+<rect x="34" y="30" width="126" height="30" rx="15" fill="#3A2305" stroke="#92400E"/><text x="50" y="50" fill="#FCD34D" font-size="12" font-family="ui-monospace,monospace" font-weight="700" letter-spacing="1">AUTOMATION</text>
+<text x="34" y="98" fill="#F8FAFC" font-size="25" font-family="Inter,system-ui,sans-serif" font-weight="800">Hammerspoon Workflow</text>
+<text x="34" y="128" fill="#A9A098" font-size="14" font-family="Inter,system-ui,sans-serif">macOS automation and command palette</text>
+<text x="34" y="158" fill="#D8D0C6" font-size="13" font-family="ui-monospace,monospace">Lua · Hotkeys · Window Control</text>
+<rect x="34" y="186" width="250" height="3" rx="1.5" fill="url(#a)"/>
+<g transform="translate(438 49)"><rect width="84" height="66" rx="15" fill="#241607" stroke="#D97706" stroke-opacity=".6"/><path d="M27 21L58 52M56 19L25 50" stroke="#FBBF24" stroke-width="5" stroke-linecap="round"/><circle cx="42" cy="35" r="8" fill="#FB7185"/></g>
+<text x="437" y="150" fill="#7D6E5B" font-size="11" font-family="ui-monospace,monospace">04 / AUTOMATE</text>
+</svg>
