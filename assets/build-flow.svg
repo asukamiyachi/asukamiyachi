@@ -1,0 +1,13 @@
+<svg width="1120" height="170" viewBox="0 0 1120 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="line" x1="70" y1="0" x2="1050" y2="0"><stop stop-color="#22D3EE"/><stop offset=".5" stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
+<rect x="1" y="1" width="1118" height="168" rx="24" fill="#070B14" stroke="#202B3C" stroke-width="2"/>
+<path d="M128 84H992" stroke="#1F2A3A" stroke-width="4" stroke-linecap="round"/>
+<path d="M128 84H992" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+<g font-family="Inter,system-ui,sans-serif" text-anchor="middle">
+<g transform="translate(128 84)"><circle r="27" fill="#082F49" stroke="#22D3EE"/><text y="5" fill="#E6F9FD" font-size="13" font-weight="800">IDEA</text><text y="55" fill="#64748B" font-size="11">QUESTION</text></g>
+<g transform="translate(344 84)"><circle r="27" fill="#172554" stroke="#60A5FA"/><text y="5" fill="#EFF6FF" font-size="12" font-weight="800">BUILD</text><text y="55" fill="#64748B" font-size="11">PROTOTYPE</text></g>
+<g transform="translate(560 84)"><circle r="27" fill="#312E81" stroke="#818CF8"/><text y="5" fill="#EEF2FF" font-size="13" font-weight="800">SHIP</text><text y="55" fill="#64748B" font-size="11">REAL USE</text></g>
+<g transform="translate(776 84)"><circle r="27" fill="#3B0764" stroke="#A78BFA"/><text y="5" fill="#FAF5FF" font-size="12" font-weight="800">LEARN</text><text y="55" fill="#64748B" font-size="11">SIGNALS</text></g>
+<g transform="translate(992 84)"><circle r="27" fill="#4C0519" stroke="#FB7185"/><text y="5" fill="#FFF1F2" font-size="12" font-weight="800">SCALE</text><text y="55" fill="#64748B" font-size="11">SYSTEM</text></g>
+</g>
+</svg>
