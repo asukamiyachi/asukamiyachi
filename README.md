@@ -25,7 +25,7 @@ I build software, AI systems, robotics experiments, and tools — then learn fro
 
 </div>
 
----
+<br/><br/>
 
 <a id="selected-work"></a>
 <sub>01 / SELECTED WORK</sub>
@@ -34,39 +34,33 @@ I build software, AI systems, robotics experiments, and tools — then learn fro
 <table>
 <tr>
 <td width="50%">
-<a href="https://github.com/asukamiyachi/physical-ai-sandbox">
-<img src="./assets/project-physical-ai.svg" width="100%" alt="Physical AI Sandbox" />
-</a>
+<a href="https://github.com/asukamiyachi/physical-ai-sandbox"><img src="./assets/project-physical-ai.svg" width="100%" alt="Physical AI Sandbox" /></a>
 </td>
 <td width="50%">
-<a href="https://github.com/asukamiyachi/local-ai-debate">
-<img src="./assets/project-local-ai.svg" width="100%" alt="Local AI Debate" />
-</a>
+<a href="https://github.com/asukamiyachi/local-ai-debate"><img src="./assets/project-local-ai.svg" width="100%" alt="Local AI Debate" /></a>
 </td>
 </tr>
 <tr>
 <td width="50%">
-<a href="https://github.com/asukamiyachi/Ghostty-Terminal">
-<img src="./assets/project-ghostty.svg" width="100%" alt="Ghostty Terminal" />
-</a>
+<a href="https://github.com/asukamiyachi/Ghostty-Terminal"><img src="./assets/project-ghostty.svg" width="100%" alt="Ghostty Terminal" /></a>
 </td>
 <td width="50%">
-<a href="https://github.com/asukamiyachi/hammerspoon-workflow">
-<img src="./assets/project-hammerspoon.svg" width="100%" alt="Hammerspoon Workflow" />
-</a>
+<a href="https://github.com/asukamiyachi/hammerspoon-workflow"><img src="./assets/project-hammerspoon.svg" width="100%" alt="Hammerspoon Workflow" /></a>
 </td>
 </tr>
 </table>
 
 <p align="right"><sub>Each card links directly to the repository ↗</sub></p>
 
----
+<br/><br/>
 
 <a id="build-system"></a>
 <sub>02 / BUILD SYSTEM</sub>
 ## Ambitious direction. Concrete iteration.
 
 <img src="./assets/build-flow.svg" width="100%" alt="Idea to Build to Ship to Learn to Scale" />
+
+<br/>
 
 <table>
 <tr>
@@ -79,7 +73,7 @@ I build software, AI systems, robotics experiments, and tools — then learn fro
 
 > **Think big. Start concrete. Ship something. Learn from reality. Improve the system.**
 
----
+<br/><br/>
 
 <a id="stack"></a>
 <sub>03 / STACK</sub>
@@ -87,51 +81,26 @@ I build software, AI systems, robotics experiments, and tools — then learn fro
 
 <img src="./assets/stack.svg" width="100%" alt="Technology stack" />
 
----
+<br/><br/>
 
 <a id="now"></a>
 <sub>04 / NOW</sub>
 ## What I am optimizing for now
 
-```text
-BUILDING     Physical AI systems and developer tools
-LEARNING     AI / robotics / manufacturing / product design
-EXPLORING    Products that can create new behavior and new markets
-PRINCIPLE    Ambition in the goal, concreteness in the next action
-```
+<img src="./assets/now.svg" width="100%" alt="Current building, learning, exploring and principle" />
 
----
+<br/><br/>
 
 <sub>05 / DIRECTION</sub>
 ## From code on a screen to systems in the world
 
-<table>
-<tr>
-<td width="58%" valign="top">
+<img src="./assets/direction.svg" width="100%" alt="Software, AI, robotics and design becoming products, behavior, markets and impact" />
 
-I want to understand enough of **technology, people, business, and scale** to build products that move beyond a demo and become systems people actually use.
+<br/>
 
-The projects here are experiments toward that direction: AI that acts, robotics that learns, interfaces that feel intentional, and tools that remove friction from building.
+I want to understand enough of **technology, people, business, and scale** to build products that move beyond a demo and become systems people actually use. The projects here are experiments toward that direction: AI that acts, robotics that learns, interfaces that feel intentional, and tools that remove friction from building.
 
-</td>
-<td width="42%" valign="top">
-
-```text
-SOFTWARE ─┐
-AI       ─┼─→ PRODUCT
-ROBOTICS ─┤      ↓
-DESIGN   ─┘   BEHAVIOR
-              ↓
-            MARKET
-              ↓
-            IMPACT
-```
-
-</td>
-</tr>
-</table>
-
----
+<br/><br/>
 
 <div align="center">
 
