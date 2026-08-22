@@ -4,10 +4,10 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=60A5FA&center=true&vCenter=true&width=760&lines=Student+%40+Kamiyama+Marugoto+College;Product+%C3%97+AI+%C3%97+Robotics+%C3%97+Software;Turning+ideas+into+working+products;Building+toward+global-scale+impact)](https://git.io/typing-svg)
 
-<a href="https://github.com/asuka0611">
-  <img src="https://img.shields.io/badge/GitHub-asuka0611-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://github.com/asukamiyachi">
+  <img src="https://img.shields.io/badge/GitHub-asukamiyachi-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<img src="https://komarev.com/ghpvc/?username=asuka0611&style=for-the-badge&color=2563eb&label=PROFILE+VIEWS" />
+<img src="https://komarev.com/ghpvc/?username=asukamiyachi&style=for-the-badge&color=2563eb&label=PROFILE+VIEWS" />
 
 </div>
 
@@ -108,22 +108,22 @@ Goal        Build products and companies with global-scale impact
 
 <div align="center">
 
-<a href="https://github.com/asuka0611/physical-ai-sandbox">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=asuka0611&repo=physical-ai-sandbox&hide_border=true&theme=transparent" />
+<a href="https://github.com/asukamiyachi/physical-ai-sandbox">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=asukamiyachi&repo=physical-ai-sandbox&hide_border=true&theme=transparent" />
 </a>
-<a href="https://github.com/asuka0611/local-ai-debate">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=asuka0611&repo=local-ai-debate&hide_border=true&theme=transparent" />
-</a>
-
-<a href="https://github.com/asuka0611/Ghostty-Terminal">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=asuka0611&repo=Ghostty-Terminal&hide_border=true&theme=transparent" />
-</a>
-<a href="https://github.com/asuka0611/hammerspoon-workflow">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=asuka0611&repo=hammerspoon-workflow&hide_border=true&theme=transparent" />
+<a href="https://github.com/asukamiyachi/local-ai-debate">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=asukamiyachi&repo=local-ai-debate&hide_border=true&theme=transparent" />
 </a>
 
-<a href="https://github.com/asuka0611/yajinushi">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=asuka0611&repo=yajinushi&hide_border=true&theme=transparent" />
+<a href="https://github.com/asukamiyachi/Ghostty-Terminal">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=asukamiyachi&repo=Ghostty-Terminal&hide_border=true&theme=transparent" />
+</a>
+<a href="https://github.com/asukamiyachi/hammerspoon-workflow">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=asukamiyachi&repo=hammerspoon-workflow&hide_border=true&theme=transparent" />
+</a>
+
+<a href="https://github.com/asukamiyachi/yajinushi">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=asukamiyachi&repo=yajinushi&hide_border=true&theme=transparent" />
 </a>
 
 </div>
@@ -176,10 +176,10 @@ flowchart LR
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=asuka0611&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asuka0611&layout=compact&hide_border=true&theme=transparent&langs_count=8" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=asukamiyachi&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asukamiyachi&layout=compact&hide_border=true&theme=transparent&langs_count=8" />
 
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=asuka0611&theme=github-compact&hide_border=true&area=true" />
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=asukamiyachi&theme=github-compact&hide_border=true&area=true" />
 
 </div>
 
