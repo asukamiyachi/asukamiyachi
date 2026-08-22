@@ -1,0 +1,11 @@
+<svg width="1120" height="232" viewBox="0 0 1120 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1120" y2="232"><stop stop-color="#07111D"/><stop offset=".55" stop-color="#0A1020"/><stop offset="1" stop-color="#120B22"/></linearGradient></defs>
+<rect x="1" y="1" width="1118" height="230" rx="24" fill="url(#bg)" stroke="#243246" stroke-width="2"/>
+<g font-family="Inter,system-ui,sans-serif">
+<text x="40" y="42" fill="#64748B" font-size="11" font-weight="700" letter-spacing="1.8">CURRENT OPERATING SYSTEM</text>
+<g transform="translate(40 65)"><rect width="500" height="58" rx="14" fill="#0A1725" stroke="#17364B"/><circle cx="26" cy="29" r="5" fill="#22D3EE"/><text x="45" y="23" fill="#64748B" font-size="10" font-weight="700" letter-spacing="1.3">BUILDING</text><text x="45" y="43" fill="#F8FAFC" font-size="16" font-weight="800">Physical AI + developer tools</text></g>
+<g transform="translate(580 65)"><rect width="500" height="58" rx="14" fill="#0D1527" stroke="#263A61"/><circle cx="26" cy="29" r="5" fill="#60A5FA"/><text x="45" y="23" fill="#64748B" font-size="10" font-weight="700" letter-spacing="1.3">LEARNING</text><text x="45" y="43" fill="#F8FAFC" font-size="16" font-weight="800">AI · robotics · manufacturing · product</text></g>
+<g transform="translate(40 137)"><rect width="500" height="58" rx="14" fill="#151126" stroke="#3D2F63"/><circle cx="26" cy="29" r="5" fill="#A78BFA"/><text x="45" y="23" fill="#64748B" font-size="10" font-weight="700" letter-spacing="1.3">EXPLORING</text><text x="45" y="43" fill="#F8FAFC" font-size="16" font-weight="800">Products that create new behavior</text></g>
+<g transform="translate(580 137)"><rect width="500" height="58" rx="14" fill="#1C101A" stroke="#5B2C49"/><circle cx="26" cy="29" r="5" fill="#FB7185"/><text x="45" y="23" fill="#64748B" font-size="10" font-weight="700" letter-spacing="1.3">PRINCIPLE</text><text x="45" y="43" fill="#F8FAFC" font-size="16" font-weight="800">Big ambition. Concrete next action.</text></g>
+</g>
+</svg>
