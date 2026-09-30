@@ -13,14 +13,14 @@
   <rect x="0" y="0" width="142" height="186" fill="url(#seigaiha)" opacity="0.9"/><rect x="330" y="106" width="150" height="80" fill="url(#seigaiha)" opacity="0.56"/>
   <g opacity="0.72" stroke="#cbb78d" stroke-width="0.9"><path d="M356 0V186M388 0V186M420 0V186M452 0V186"/><path d="M330 40H480M330 82H480M330 124H480"/></g>
   <circle cx="405" cy="80" r="54" fill="#ead7ad" opacity="0.26"/>
-  <g transform="translate(126 92) rotate(-15)"><circle r="61" fill="none" stroke="#c9a560" stroke-width="10" stroke-linecap="round" stroke-dasharray="286 94" opacity="0.82"/></g>
+  <g transform="translate(120 92) rotate(-15)"><circle r="61" fill="none" stroke="#c9a560" stroke-width="10" stroke-linecap="round" stroke-dasharray="286 94" opacity="0.82"/></g>
   <path d="M-24 152C18 146 42 136 66 118c16-12 31-25 52-35" fill="none" stroke="#5e4c3e" stroke-width="4" stroke-linecap="round"/>
   <use href="#blossom" transform="translate(40 137) scale(1.05)"/><use href="#blossom" transform="translate(73 115) scale(0.7)"/><use href="#blossom" transform="translate(101 97) scale(0.58)"/>
   <g opacity="0.95"><path d="M20 102H458" fill="none" stroke="#b59d74" stroke-width="1"/><circle cx="453" cy="102" r="4.6" fill="#d34430"/></g>
-  <path d="M34 113C57 98 75 91 96 93" fill="none" stroke="#d63b2c" stroke-width="6" stroke-linecap="round"/><path d="M34 113C61 101 77 98 108 97" fill="none" stroke="#ee7f54" stroke-width="1.9" stroke-linecap="round" opacity="0.75"/>
-  <text x="48" y="78" fill="#253b55" font-family="Georgia,'Times New Roman',serif" font-size="52" letter-spacing="2.1">ASUKA</text><text x="48" y="126" fill="#253b55" font-family="Georgia,'Times New Roman',serif" font-size="52" letter-spacing="2.1">MIYACHI</text>
+  <path d="M30 111C49 98 66 92 86 93" fill="none" stroke="#d63b2c" stroke-width="5.8" stroke-linecap="round"/><path d="M30 111C54 101 69 98 95 97" fill="none" stroke="#ee7f54" stroke-width="1.9" stroke-linecap="round" opacity="0.75"/>
+  <text x="54" y="78" fill="#253b55" font-family="Georgia,'Times New Roman',serif" font-size="52" letter-spacing="2.1">ASUKA</text><text x="54" y="126" fill="#253b55" font-family="Georgia,'Times New Roman',serif" font-size="52" letter-spacing="2.1">MIYACHI</text>
   <g transform="translate(399 128)"><rect width="32" height="32" fill="none" stroke="#d34131" stroke-width="2"/><rect x="4" y="4" width="24" height="24" fill="#d34131" opacity="0.08"/><path d="M7 24V8h7v16M7 18h7M19 24V8l3 6 3-6v16" fill="none" stroke="#d34131" stroke-width="1.7"/></g>
-  <g fill="#d6b266"><path d="M246 26l3 3 3-3-3-3-3 3Zm178 25l3 3 3-3-3-3-3 3Z"/></g>
+  <g fill="#d6b266"><path d="M246 26l3 3 3-3-3-3-3 3Zm178 25l3 3 3-3-3-3-3 3Zm-116 112l3 3 3-3-3-3-3 3Z"/></g>
   <use href="#petal" transform="translate(237 28) rotate(-14) scale(0.84)"/><use href="#petal" transform="translate(289 140) rotate(-10) scale(0.8)"/><use href="#petal" transform="translate(408 150) rotate(-2) scale(0.78)"/>
   <text x="18" y="172" fill="#6f6a60" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="9.8" font-weight="600" letter-spacing="0.7">AI / ROBOTICS / PRODUCT / SOFTWARE</text>
 </svg>
