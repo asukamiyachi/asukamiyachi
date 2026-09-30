@@ -8,22 +8,26 @@
 
 <h3 align="center">TOOLBOX</h3>
 
-<p align="center">
-  <img src="./assets/toolbox-languages.svg" width="490" alt="Python, C, Dart, Flutter, Swift, Kotlin, TypeScript, JavaScript, Lua, Next.js" />
-</p>
-<p align="center">
-  <img src="./assets/toolbox-platform.svg" width="440" alt="Firebase, Supabase, Vercel, Cloudflare, Google Cloud, Docker, Git, GitHub, Figma" />
-</p>
-<p align="center">
-  <img src="./assets/openai-logomark.svg" width="28" height="28" alt="OpenAI" title="OpenAI" />
-  &nbsp;
-  <img src="./assets/qwen-logo.svg" width="90" height="24" alt="Qwen" title="Qwen" />
-  &nbsp;
-  <img src="./assets/bonsai-logo.svg" width="42" height="26" alt="Bonsai AI" title="Bonsai AI" />
-  &nbsp;
-  <img src="./assets/huggingface-logo.svg" width="30" height="30" alt="Hugging Face" title="Hugging Face" />
-  &nbsp;
-  <img src="./assets/gemini-logo.svg" width="28" height="28" alt="Google Gemini" title="Google Gemini" />
-  &nbsp;
-  <img src="./assets/ghostty-logo.svg" width="26" height="31" alt="Ghostty" title="Ghostty" />
-</p>
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,c,dart,flutter,swift,kotlin,ts,js,lua,nextjs&perline=10" alt="Languages and application stack" />
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=firebase,supabase,vercel,cloudflare,gcp,docker,git,github,figma&perline=9" alt="Cloud, platform and development tools" />
+
+<br/><br/>
+
+<img src="./assets/openai-logomark.svg" height="34" alt="OpenAI" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/qwen-logo.svg" height="34" alt="Qwen" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/bonsai-logo.svg" height="34" alt="Bonsai AI" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/huggingface-logo.svg" height="36" alt="Hugging Face" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/gemini-logo.svg" height="34" alt="Google Gemini" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/ghostty-logo.svg" height="36" alt="Ghostty" />
+
+</div>
