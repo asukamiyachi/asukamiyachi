@@ -14,7 +14,11 @@
 
 <br/><br/>
 
-<img src="https://skillicons.dev/icons?i=firebase,supabase,vercel,cloudflare,gcp,docker,git,github,figma,ai,ps,discord&perline=12" alt="Cloud, platform and development tools" />
+<img src="https://skillicons.dev/icons?i=firebase,supabase,vercel,cloudflare,gcp,docker,git,figma,ai,ps&perline=10" alt="Cloud, platform and development tools" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/tailscale-logo.svg" height="48" alt="Tailscale" title="Tailscale" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/bambulab-logo.svg" height="48" alt="Bambu Lab" title="Bambu Lab" />
 
 <br/><br/>
 
@@ -32,13 +36,21 @@
 
 <br/><br/>
 
+<img src="./assets/discord-logo.svg" height="34" alt="Discord" title="Discord" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/github-logo.svg" height="34" alt="GitHub" title="GitHub" />
+&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg" height="34" alt="Slack" title="Slack" />
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://dl.svgcdn.com/svg/arcticons/deploygate.svg" height="34" alt="DeployGate" title="DeployGate" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./assets/tailscale-logo.svg" height="34" alt="Tailscale" title="Tailscale" />
+<img src="./assets/app-tester-badge.svg" height="34" alt="App Tester" title="App Tester" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./assets/bambulab-logo.svg" height="34" alt="Bambu Lab" title="Bambu Lab" />
+<img src="./assets/linkedin-logo.svg" height="34" alt="LinkedIn" title="LinkedIn" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/facebook-logo.svg" height="34" alt="Facebook" title="Facebook" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/eight-badge.svg" height="34" alt="Eight" title="Eight" />
 
 </div>
 
