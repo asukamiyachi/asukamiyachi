@@ -1,17 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
   <title id="title">Asuka Miyachi — AI, Robotics, Product and Software</title>
-  <desc id="desc">Compact animated profile hero.</desc>
+  <desc id="desc">Compact animated profile hero with editorial tech typography.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#050816"/>
       <stop offset=".55" stop-color="#090d1f"/>
       <stop offset="1" stop-color="#050816"/>
     </linearGradient>
+
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset=".5" stop-color="#a78bfa"/>
+      <stop offset=".48" stop-color="#a78bfa"/>
       <stop offset="1" stop-color="#84cc16"/>
     </linearGradient>
+
+    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset=".55" stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
     <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M30 0H0V30" fill="none" stroke="#94a3b8" stroke-opacity=".055" stroke-width="1"/>
     </pattern>
@@ -25,20 +41,83 @@
     <animate attributeName="x" values="-220;1320" dur="5s" repeatCount="indefinite"/>
   </rect>
 
-  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
-    <text x="56" y="48" fill="#94a3b8" font-size="13" font-weight="700" letter-spacing="3">ASUKA / 2026</text>
-    <text x="56" y="105" fill="#f8fafc" font-size="52" font-weight="850" letter-spacing=".5">ASUKA MIYACHI</text>
-    <text x="57" y="140" fill="#cbd5e1" font-size="19" font-weight="650">AI · ROBOTICS · PRODUCT · SOFTWARE</text>
+  <g>
+    <text x="56" y="39"
+      fill="#64748b"
+      font-family="'SFMono-Regular','JetBrains Mono','Cascadia Mono','Courier New',monospace"
+      font-size="12"
+      font-weight="700"
+      letter-spacing="3.5">[ ASUKA / 2026 ]</text>
 
-    <g transform="translate(760 55)">
-      <text x="0" y="0" fill="#64748b" font-size="11" font-weight="700" letter-spacing="2">CURRENT VECTOR</text>
-      <text x="0" y="31" fill="#f8fafc" font-size="15" font-weight="750">AI SYSTEMS  ·  ROBOTICS  ·  PRODUCT  ·  DEV TOOLS</text>
-      <rect x="0" y="47" width="340" height="3" rx="1.5" fill="url(#accent)">
-        <animate attributeName="width" values="90;340;210;340" dur="3.8s" repeatCount="indefinite"/>
+    <text x="57" y="106"
+      fill="#0f172a"
+      opacity=".7"
+      font-family="'Arial Black','Avenir Next Condensed','Helvetica Neue',Arial,sans-serif"
+      font-size="56"
+      font-weight="900"
+      letter-spacing="-1.8"
+      transform="skewX(-5)">ASUKA MIYACHI</text>
+
+    <text x="54" y="102"
+      fill="url(#nameGradient)"
+      font-family="'Arial Black','Avenir Next Condensed','Helvetica Neue',Arial,sans-serif"
+      font-size="56"
+      font-weight="900"
+      letter-spacing="-1.8"
+      transform="skewX(-5)">ASUKA <tspan fill="url(#accent)">MIYACHI</tspan></text>
+
+    <rect x="56" y="116" width="505" height="3" rx="1.5" fill="url(#accent)" filter="url(#softGlow)">
+      <animate attributeName="width" values="120;505;330;505" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="57" y="144"
+      fill="#cbd5e1"
+      font-family="'SFMono-Regular','JetBrains Mono','Cascadia Mono','Courier New',monospace"
+      font-size="16"
+      font-weight="650"
+      letter-spacing=".8">AI / ROBOTICS / PRODUCT / SOFTWARE</text>
+
+    <text x="56" y="171"
+      fill="#64748b"
+      font-family="'SFMono-Regular','JetBrains Mono','Cascadia Mono','Courier New',monospace"
+      font-size="11"
+      font-weight="700"
+      letter-spacing="1.8">BUILD → SHIP → LEARN → SCALE</text>
+
+    <g transform="translate(758 48)">
+      <text x="0" y="0"
+        fill="#64748b"
+        font-family="'SFMono-Regular','JetBrains Mono','Cascadia Mono','Courier New',monospace"
+        font-size="10"
+        font-weight="700"
+        letter-spacing="2.8">CURRENT_VECTOR</text>
+
+      <text x="0" y="34"
+        fill="#f8fafc"
+        font-family="'Arial Narrow','Avenir Next Condensed','Helvetica Neue',Arial,sans-serif"
+        font-size="16"
+        font-weight="800"
+        letter-spacing=".9">AI SYSTEMS / ROBOTICS / PRODUCT</text>
+
+      <text x="0" y="57"
+        fill="#cbd5e1"
+        font-family="'Arial Narrow','Avenir Next Condensed','Helvetica Neue',Arial,sans-serif"
+        font-size="16"
+        font-weight="800"
+        letter-spacing=".9">DEV TOOLS / AUTOMATION</text>
+
+      <rect x="0" y="72" width="330" height="3" rx="1.5" fill="url(#accent)">
+        <animate attributeName="width" values="75;330;205;330" dur="3.6s" repeatCount="indefinite"/>
       </rect>
-      <text x="0" y="83" fill="#94a3b8" font-size="12" font-weight="700" letter-spacing="1.6">LIVE ACTIVITY ↓</text>
+
+      <text x="0" y="101"
+        fill="#94a3b8"
+        font-family="'SFMono-Regular','JetBrains Mono','Cascadia Mono','Courier New',monospace"
+        font-size="11"
+        font-weight="700"
+        letter-spacing="2">LIVE_ACTIVITY ↓</text>
     </g>
 
-    <text x="56" y="172" fill="#64748b" font-size="12" font-weight="700" letter-spacing="1.5">BUILD → SHIP → LEARN → SCALE</text>
+    <path d="M722 28V162" stroke="url(#accent)" stroke-width="1.5" stroke-opacity=".35"/>
   </g>
 </svg>
