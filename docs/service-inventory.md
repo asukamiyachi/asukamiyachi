@@ -32,6 +32,12 @@ The GitHub profile should stay curated: only high-signal items belong in the vis
 - Adobe Illustrator
 - Adobe Photoshop
 - Discord
+- Slack
+
+### Delivery / Network / Hardware
+- DeployGate
+- Tailscale
+- Bambu Lab
 
 ### AI / Tools
 - OpenAI
@@ -45,18 +51,8 @@ The GitHub profile should stay curated: only high-signal items belong in the vis
 
 These are intentionally kept out of the primary profile for now so the profile does not become a logo wall.
 
-### Collaboration / Communication
-- Slack
-
 ### App distribution / Testing
-- DeployGate
 - App Tester
-
-### Network / Infrastructure
-- Tailscale
-
-### Maker / Hardware
-- Bambu Lab
 
 ### Social / Professional
 - Instagram
