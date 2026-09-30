@@ -1,109 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="136" viewBox="0 0 1200 136" role="img" aria-labelledby="title desc">
   <title id="title">Asuka Miyachi — AI, Robotics, Product and Software</title>
-  <desc id="desc">Compact animated profile hero with editorial tech typography.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050816"/>
-      <stop offset=".55" stop-color="#090d1f"/>
-      <stop offset="1" stop-color="#050816"/>
-    </linearGradient>
+  <desc id="desc">Minimal monochrome profile hero.</desc>
 
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset=".48" stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#84cc16"/>
-    </linearGradient>
+  <!--
+    EDIT ZONE
+    - Name:     #profile-name
+    - Fields:   #profile-fields
+    - Eyebrow:  #profile-eyebrow
+    Keep this file intentionally simple so the hero can be redesigned quickly.
+  -->
 
-    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#f8fafc"/>
-      <stop offset=".55" stop-color="#e2e8f0"/>
-      <stop offset="1" stop-color="#a78bfa"/>
-    </linearGradient>
+  <rect width="1200" height="136" rx="20" fill="#08090b"/>
+  <rect x="1" y="1" width="1198" height="134" rx="19" fill="none" stroke="#26282d"/>
 
-    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M30 0H0V30" fill="none" stroke="#94a3b8" stroke-opacity=".055" stroke-width="1"/>
-    </pattern>
-  </defs>
-
-  <rect width="1200" height="190" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="190" rx="24" fill="url(#grid)"/>
-  <rect x="1" y="1" width="1198" height="188" rx="23" fill="none" stroke="#64748b" stroke-opacity=".22"/>
-
-  <rect x="-220" y="0" width="150" height="190" fill="url(#accent)" opacity=".055" transform="skewX(-20)">
-    <animate attributeName="x" values="-220;1320" dur="5s" repeatCount="indefinite"/>
-  </rect>
-
-  <g>
-    <text x="56" y="39"
-      fill="#64748b"
-      font-family="'SFMono-Regular','JetBrains Mono','Cascadia Mono','Courier New',monospace"
-      font-size="12"
-      font-weight="700"
-      letter-spacing="3.5">[ ASUKA / 2026 ]</text>
-
-    <text x="57" y="106"
-      fill="#0f172a"
-      opacity=".7"
-      font-family="'Arial Black','Avenir Next Condensed','Helvetica Neue',Arial,sans-serif"
-      font-size="56"
-      font-weight="900"
-      letter-spacing="-1.8"
-      transform="skewX(-5)">ASUKA MIYACHI</text>
-
-    <text x="54" y="102"
-      fill="url(#nameGradient)"
-      font-family="'Arial Black','Avenir Next Condensed','Helvetica Neue',Arial,sans-serif"
-      font-size="56"
-      font-weight="900"
-      letter-spacing="-1.8"
-      transform="skewX(-5)">ASUKA <tspan fill="url(#accent)">MIYACHI</tspan></text>
-
-    <rect x="56" y="116" width="505" height="3" rx="1.5" fill="url(#accent)" filter="url(#softGlow)">
-      <animate attributeName="width" values="120;505;330;505" dur="4.2s" repeatCount="indefinite"/>
-    </rect>
-
-    <text x="57" y="144"
-      fill="#cbd5e1"
-      font-family="'SFMono-Regular','JetBrains Mono','Cascadia Mono','Courier New',monospace"
-      font-size="16"
-      font-weight="650"
-      letter-spacing=".8">AI / ROBOTICS / PRODUCT / SOFTWARE</text>
-
-    <text x="56" y="171"
-      fill="#64748b"
-      font-family="'SFMono-Regular','JetBrains Mono','Cascadia Mono','Courier New',monospace"
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+    <text id="profile-eyebrow"
+      x="48" y="27"
+      fill="#777b84"
       font-size="11"
       font-weight="700"
-      letter-spacing="1.8">BUILD → SHIP → LEARN → SCALE</text>
+      letter-spacing="2.8">ASUKA / 2026</text>
 
-    <g transform="translate(790 78)">
-      <text x="0" y="0"
-        fill="#94a3b8"
-        font-family="'SFMono-Regular','JetBrains Mono','Cascadia Mono','Courier New',monospace"
-        font-size="12"
-        font-weight="700"
-        letter-spacing="2.4">LIVE_ACTIVITY ↓</text>
+    <text id="profile-name"
+      x="46" y="79"
+      fill="#ffffff"
+      font-size="52"
+      font-weight="800"
+      letter-spacing="-1.4">ASUKA MIYACHI</text>
 
-      <rect x="0" y="18" width="250" height="3" rx="1.5" fill="url(#accent)">
-        <animate attributeName="width" values="70;250;150;250" dur="3.4s" repeatCount="indefinite"/>
-      </rect>
-
-      <text x="0" y="54"
-        fill="#475569"
-        font-family="'SFMono-Regular','JetBrains Mono','Cascadia Mono','Courier New',monospace"
-        font-size="10"
-        font-weight="700"
-        letter-spacing="2">SCROLL TO THE GRAPH</text>
-    </g>
-
-    <path d="M722 28V162" stroke="url(#accent)" stroke-width="1.5" stroke-opacity=".35"/>
+    <text id="profile-fields"
+      x="48" y="111"
+      fill="#b7bac1"
+      font-family="'SFMono-Regular','Cascadia Mono','Courier New',monospace"
+      font-size="15"
+      font-weight="600"
+      letter-spacing=".9">AI / ROBOTICS / PRODUCT / SOFTWARE</text>
   </g>
 </svg>
