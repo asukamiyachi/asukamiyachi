@@ -14,7 +14,7 @@
 
 <br/><br/>
 
-<img src="https://skillicons.dev/icons?i=firebase,supabase,vercel,cloudflare,gcp,docker,git,github,figma&perline=9" alt="Cloud, platform and development tools" />
+<img src="https://skillicons.dev/icons?i=firebase,supabase,vercel,cloudflare,gcp,docker,git,github,figma,ai,ps,discord&perline=12" alt="Cloud, platform and development tools" />
 
 <br/><br/>
 
@@ -31,3 +31,5 @@
 <img src="./assets/ghostty-logo.svg" height="36" alt="Ghostty" />
 
 </div>
+
+<!-- Full service inventory: docs/service-inventory.md -->
