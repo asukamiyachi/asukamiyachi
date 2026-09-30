@@ -1,37 +1,118 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="168" viewBox="0 0 960 168" role="img" aria-labelledby="title desc">
-  <title id="title">Asuka Miyachi — AI, Robotics, Product and Software</title>
-  <desc id="desc">Quiet typography, a fine rule, and a vermilion AM monogram.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="180" viewBox="0 0 960 180" role="img" aria-labelledby="title desc">
+  <title id="title">Asuka Miyachi</title>
+  <desc id="desc">A warm Japanese-inspired profile hero with washi texture, an enso, blossoms, shoji lines, and a vermilion accent.</desc>
 
-  <!-- Edit text in #profile-name / #profile-fields; palette in this style block.
-       Desktop master. Keep wording and palette in sync with hero-v3-mobile.svg.
-       No external fonts or animation: the contribution field carries the motion. -->
-  <style>
-    #background { fill: #F5F3EE; }
-    #profile-name { fill: #20201E; }
-    #profile-fields { fill: #62615D; }
-    #rules { stroke: #C9C7C0; }
-    @media (prefers-color-scheme: dark) {
-      #background { fill: #191A19; }
-      #profile-name { fill: #F5F3EE; }
-      #profile-fields { fill: #B6B5AE; }
-      #rules { stroke: #41423E; }
-    }
-  </style>
+  <!--
+    EDIT ZONE
+    #background      overall paper tone
+    #profile-name    ASUKA MIYACHI
+    #profile-fields  small specialty line
+    #enso            gold brush circle
+    #branch-left     blossom branch
+    #shoji           right-side architectural grid
+    #identity-mark   small seal-inspired AM mark
+  -->
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf6ea"/>
+      <stop offset=".55" stop-color="#f7eedc"/>
+      <stop offset="1" stop-color="#f3e7d0"/>
+    </linearGradient>
 
-  <rect id="background" width="960" height="168"/>
-  <g id="rules" fill="none" stroke-width="1">
-    <path d="M32 16.5H928"/>
+    <filter id="washi" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="11" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0" result="gray"/>
+      <feComponentTransfer in="gray" result="soft">
+        <feFuncA type="table" tableValues="0 .08"/>
+      </feComponentTransfer>
+      <feBlend in="SourceGraphic" in2="soft" mode="multiply"/>
+    </filter>
+
+    <pattern id="seigaiha" width="28" height="14" patternUnits="userSpaceOnUse">
+      <path d="M0 14C0 6.3 6.3 0 14 0s14 6.3 14 14M7 14c0-3.9 3.1-7 7-7s7 3.1 7 7" fill="none" stroke="#c9a96b" stroke-width="1"/>
+    </pattern>
+
+    <linearGradient id="ensoGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8bb7b"/>
+      <stop offset=".5" stop-color="#b9924d"/>
+      <stop offset="1" stop-color="#e1c98f"/>
+    </linearGradient>
+  </defs>
+
+  <rect id="background" width="960" height="180" fill="url(#paper)" filter="url(#washi)"/>
+
+  <!-- soft traditional patterns -->
+  <g opacity=".20">
+    <rect x="0" y="0" width="185" height="180" fill="url(#seigaiha)"/>
+    <rect x="770" y="92" width="190" height="88" fill="url(#seigaiha)"/>
   </g>
 
-  <!-- Live SVG text, with system fonts only. -->
-  <g id="profile-name" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="84" font-weight="500" letter-spacing="-4">
-    <text x="28" y="103">ASUKA MIYACHI</text>
+  <!-- right-side shoji structure and pale sun -->
+  <g id="shoji" opacity=".34" stroke="#c7b184" stroke-width="1">
+    <circle cx="805" cy="78" r="58" fill="#dec58e" stroke="none" opacity=".28"/>
+    <path d="M730 0V180M770 0V180M810 0V180M850 0V180M890 0V180M930 0V180"/>
+    <path d="M710 32H960M710 72H960M710 112H960M710 152H960"/>
   </g>
-  <text id="profile-fields" x="928" y="145" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="17" letter-spacing="0.6">AI / ROBOTICS / PRODUCT / SOFTWARE</text>
 
-  <!-- One geometric AM mark, not a literal seal. -->
-  <g id="identity-mark" transform="translate(886 53)">
-    <rect id="accent" width="42" height="42" fill="#E34432"/>
-    <path d="M8 30V12H18V30M8 22H18M24 30V12L29 20L34 12V30" fill="none" stroke="#F5F3EE" stroke-width="2" stroke-linejoin="miter"/>
+  <!-- slim editorial line -->
+  <g stroke="#9f8a63" stroke-width="1" opacity=".78">
+    <path d="M26 95H934"/>
+    <path d="M54 64V126M906 70V120"/>
   </g>
+  <rect x="50" y="91" width="8" height="8" fill="#a4864d"/>
+  <circle cx="907" cy="95" r="5" fill="#c63b2d"/>
+
+  <!-- restrained gold enso -->
+  <g id="enso" transform="translate(236 91) rotate(-15)">
+    <circle r="72" fill="none" stroke="url(#ensoGold)" stroke-width="12" stroke-linecap="round"
+      stroke-dasharray="345 108" opacity=".78"/>
+    <circle r="62" fill="none" stroke="#d8c18e" stroke-width="2.5" stroke-dasharray="250 140" opacity=".42"/>
+  </g>
+
+  <!-- left blossom branch -->
+  <g id="branch-left">
+    <path d="M-12 157C36 151 62 138 92 119c22-14 38-24 62-31" fill="none" stroke="#594a3b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M72 129c-8-15-11-25-9-39M96 116c8-14 18-23 30-29M43 143c-4-12-4-21-1-31" fill="none" stroke="#675444" stroke-width="2.3" stroke-linecap="round"/>
+    <g fill="#fffaf3" stroke="#df9b97" stroke-width=".8">
+      <g transform="translate(57 129)"><circle r="9"/><circle cx="7" cy="-4" r="7"/><circle cx="-6" cy="-5" r="7"/><circle cx="4" cy="7" r="7"/><circle cx="-5" cy="6" r="7"/><circle r="2.2" fill="#c86d67"/></g>
+      <g transform="translate(90 111) scale(.72)"><circle r="9"/><circle cx="7" cy="-4" r="7"/><circle cx="-6" cy="-5" r="7"/><circle cx="4" cy="7" r="7"/><circle cx="-5" cy="6" r="7"/><circle r="2.2" fill="#c86d67"/></g>
+      <g transform="translate(124 92) scale(.62)"><circle r="9"/><circle cx="7" cy="-4" r="7"/><circle cx="-6" cy="-5" r="7"/><circle cx="4" cy="7" r="7"/><circle cx="-5" cy="6" r="7"/><circle r="2.2" fill="#c86d67"/></g>
+      <g transform="translate(35 146) scale(.58)"><circle r="9"/><circle cx="7" cy="-4" r="7"/><circle cx="-6" cy="-5" r="7"/><circle cx="4" cy="7" r="7"/><circle cx="-5" cy="6" r="7"/><circle r="2.2" fill="#c86d67"/></g>
+    </g>
+  </g>
+
+  <!-- subtle upper-right blossom branch -->
+  <g opacity=".82">
+    <path d="M820 16c31 1 60-6 101-25" fill="none" stroke="#665142" stroke-width="3.2" stroke-linecap="round"/>
+    <g fill="#fff9f1" stroke="#df9b97" stroke-width=".7">
+      <g transform="translate(850 14) scale(.48)"><circle r="9"/><circle cx="7" cy="-4" r="7"/><circle cx="-6" cy="-5" r="7"/><circle cx="4" cy="7" r="7"/><circle cx="-5" cy="6" r="7"/><circle r="2.2" fill="#c86d67"/></g>
+      <g transform="translate(887 4) scale(.58)"><circle r="9"/><circle cx="7" cy="-4" r="7"/><circle cx="-6" cy="-5" r="7"/><circle cx="4" cy="7" r="7"/><circle cx="-5" cy="6" r="7"/><circle r="2.2" fill="#c86d67"/></g>
+    </g>
+  </g>
+
+  <!-- a few drifting petals -->
+  <g fill="#e5a7a0" opacity=".55">
+    <path d="M458 36c8 1 12 5 11 10-6 2-11 0-14-5 0-2 1-4 3-5Z"/>
+    <path d="M645 139c7-2 12 0 14 5-4 5-9 6-14 3-2-3-2-5 0-8Z"/>
+    <path d="M711 54c6 0 10 3 10 7-5 3-9 2-12-2 0-2 0-3 2-5Z"/>
+  </g>
+
+  <!-- editorial name treatment -->
+  <g id="profile-name" fill="#253649" font-family="Georgia,'Times New Roman',serif" font-size="67" font-weight="500" letter-spacing="3.6">
+    <text x="128" y="112">ASUKA MIYACHI</text>
+  </g>
+
+  <!-- vermilion brush accent -->
+  <path id="accent" d="M121 104C148 86 174 80 205 82c-18 4-38 12-65 31" fill="none" stroke="#c7372d" stroke-width="6.5" stroke-linecap="round" opacity=".95"/>
+
+  <!-- seal-inspired AM mark -->
+  <g id="identity-mark" transform="translate(843 118)">
+    <rect width="37" height="37" rx="1.5" fill="none" stroke="#c7372d" stroke-width="2.2"/>
+    <rect x="4" y="4" width="29" height="29" fill="#c7372d" opacity=".08"/>
+    <path d="M8 27V10h8v17M8 20h8M21 27V10l4 7 4-7v17" fill="none" stroke="#c7372d" stroke-width="2" stroke-linejoin="miter"/>
+  </g>
+
+  <text id="profile-fields" x="926" y="168" text-anchor="end"
+    fill="#776e61" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace"
+    font-size="10.5" font-weight="600" letter-spacing="1.3">AI / ROBOTICS / PRODUCT / SOFTWARE</text>
 </svg>
