@@ -17,8 +17,9 @@
   <path d="M-24 152C18 146 42 136 66 118c16-12 31-25 52-35" fill="none" stroke="#5e4c3e" stroke-width="4" stroke-linecap="round"/>
   <use href="#blossom" transform="translate(40 137) scale(1.05)"/><use href="#blossom" transform="translate(73 115) scale(0.7)"/><use href="#blossom" transform="translate(101 97) scale(0.58)"/>
   <g opacity="0.95"><path d="M20 102H458" fill="none" stroke="#b59d74" stroke-width="1"/><circle cx="453" cy="102" r="4.6" fill="#d34430"/></g>
-  <path d="M30 111C49 98 66 92 86 93" fill="none" stroke="#d63b2c" stroke-width="5.8" stroke-linecap="round"/><path d="M30 111C54 101 69 98 95 97" fill="none" stroke="#ee7f54" stroke-width="1.9" stroke-linecap="round" opacity="0.75"/>
-  <text x="54" y="78" fill="#253b55" font-family="Georgia,'Times New Roman',serif" font-size="52" letter-spacing="2.1">ASUKA</text><text x="54" y="126" fill="#253b55" font-family="Georgia,'Times New Roman',serif" font-size="52" letter-spacing="2.1">MIYACHI</text>
+  <path d="M31 83C42 77 54 73 67 70" fill="none" stroke="#d63b2c" stroke-width="5.3" stroke-linecap="round"/><path d="M33 85C46 79 58 76 72 73" fill="none" stroke="#ee7f54" stroke-width="1.7" stroke-linecap="round" opacity="0.72"/>
+  <text x="60" y="77" fill="#253b55" font-family="Georgia,'Times New Roman',serif" font-size="48" letter-spacing="1.2" textLength="174" lengthAdjust="spacingAndGlyphs">ASUKA</text>
+  <text x="60" y="124" fill="#253b55" font-family="Georgia,'Times New Roman',serif" font-size="48" letter-spacing="1.2" textLength="232" lengthAdjust="spacingAndGlyphs">MIYACHI</text>
   <g transform="translate(399 128)"><rect width="32" height="32" fill="none" stroke="#d34131" stroke-width="2"/><rect x="4" y="4" width="24" height="24" fill="#d34131" opacity="0.08"/><path d="M7 24V8h7v16M7 18h7M19 24V8l3 6 3-6v16" fill="none" stroke="#d34131" stroke-width="1.7"/></g>
   <g fill="#d6b266"><path d="M246 26l3 3 3-3-3-3-3 3Zm178 25l3 3 3-3-3-3-3 3Zm-116 112l3 3 3-3-3-3-3 3Z"/></g>
   <use href="#petal" transform="translate(237 28) rotate(-14) scale(0.84)"/><use href="#petal" transform="translate(289 140) rotate(-10) scale(0.8)"/><use href="#petal" transform="translate(408 150) rotate(-2) scale(0.78)"/>
