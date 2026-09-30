@@ -12,7 +12,7 @@
     #branch-right    small blossom branch
     #seal            stamp-like AM mark
     #grid            right-side architectural grid
-    #accent-brush    vermilion brush stroke near the first A
+    #accent-brush    vermilion brush stroke kept clear of the S
   -->
 
   <defs>
@@ -56,6 +56,7 @@
   <g fill="#dfcfad" opacity="0.55">
     <path d="M620 34c10-8 25-8 34 0h31c7 0 12 4 12 9s-5 9-12 9h-74c-7 0-12-4-12-9s5-9 12-9h9Z"/>
     <path d="M355 108c9-7 22-7 30 0h27c7 0 12 4 12 9s-5 9-12 9h-64c-7 0-12-4-12-9s5-9 12-9h7Z"/>
+    <path d="M172 54c8-7 19-7 28 0h26c6 0 11 4 11 8s-5 8-11 8h-61c-6 0-11-4-11-8s5-8 11-8h7Z" opacity="0.32"/>
   </g>
 
   <g opacity="0.95">
@@ -66,9 +67,10 @@
     <circle cx="911" cy="96" r="5.5" fill="#d34430"/>
   </g>
 
-  <g id="enso" transform="translate(238 90) rotate(-18)">
+  <g id="enso" transform="translate(226 90) rotate(-18)">
     <circle r="74" fill="none" stroke="url(#gold)" stroke-width="12" stroke-linecap="round" stroke-dasharray="350 110" opacity="0.82"/>
     <circle r="63" fill="none" stroke="#ebd9b0" stroke-width="2.5" stroke-dasharray="240 140" opacity="0.42"/>
+    <circle r="56" fill="none" stroke="#f3e7ca" stroke-width="1.2" stroke-dasharray="160 190" opacity="0.55"/>
   </g>
 
   <g id="branch-left">
@@ -88,15 +90,18 @@
     <g fill="#cb6f67"><circle cx="845" cy="18" r="2.5"/><circle cx="880" cy="11" r="2.4"/></g>
   </g>
 
+  <!-- moved left/down and shortened so it reads as an accent for the first A, not over the S -->
   <g id="accent-brush" opacity="0.97">
-    <path d="M136 114C160 96 182 88 209 90" fill="none" stroke="#d63b2c" stroke-width="7" stroke-linecap="round"/>
-    <path d="M136 114C168 98 187 94 224 94" fill="none" stroke="#ee7f54" stroke-width="2.2" stroke-linecap="round" opacity="0.78"/>
+    <path d="M124 111C147 95 168 88 191 89" fill="none" stroke="#d63b2c" stroke-width="7" stroke-linecap="round"/>
+    <path d="M124 111C153 98 171 95 201 94" fill="none" stroke="#ee7f54" stroke-width="2.2" stroke-linecap="round" opacity="0.78"/>
+    <path d="M118 116c5-2 9-5 13-9" fill="none" stroke="#b92b21" stroke-width="3.2" stroke-linecap="round" opacity="0.88"/>
   </g>
 
   <g fill="#d6b266" opacity="0.94">
     <path d="M305 18l4 4 4-4-4-4-4 4Zm18 124l4 4 4-4-4-4-4 4Zm236-8l4 4 4-4-4-4-4 4Zm383-19l4 4 4-4-4-4-4 4Zm-574 34l4 4 4-4-4-4-4 4Z"/>
     <path d="M66 40h3l1.5-3 1.5 3h3l-2.4 1.7.9 3-2.9-1.9-2.9 1.9.9-3Z"/>
     <path d="M736 33h3l1.5-3 1.5 3h3l-2.4 1.7.9 3-2.9-1.9-2.9 1.9.9-3Z"/>
+    <path d="M236 142h3l1.5-3 1.5 3h3l-2.4 1.7.9 3-2.9-1.9-2.9 1.9.9-3Z" opacity="0.7"/>
   </g>
 
   <use href="#petal" transform="translate(438 36) rotate(-12) scale(1.0)"/>
@@ -105,6 +110,7 @@
   <use href="#petal" transform="translate(622 128) rotate(-16) scale(0.9)"/>
   <use href="#petal" transform="translate(800 136) rotate(-4) scale(0.88)"/>
   <use href="#petal" transform="translate(263 146) rotate(-10) scale(0.9)"/>
+  <use href="#petal" transform="translate(340 24) rotate(10) scale(0.76)"/>
 
   <g id="grid" stroke="#cbb78d" stroke-width="1" opacity="0.8">
     <path d="M744 0V150M790 0V180M834 0V180M878 0V160M922 0V180"/>
@@ -116,7 +122,7 @@
     <path d="M910 107v19" fill="none" stroke="#bc9d6d" stroke-width="1" stroke-dasharray="2 3"/>
   </g>
 
-  <g id="name"><text x="136" y="112" fill="#253b55" font-family="Georgia,'Times New Roman',serif" font-size="72" font-weight="500" letter-spacing="3.2">ASUKA MIYACHI</text></g>
+  <g id="name"><text x="146" y="112" fill="#253b55" font-family="Georgia,'Times New Roman',serif" font-size="72" font-weight="500" letter-spacing="3.2">ASUKA MIYACHI</text></g>
 
   <g id="seal" transform="translate(850 118)">
     <rect width="40" height="40" rx="1.5" fill="none" stroke="#d34131" stroke-width="2.4"/>
