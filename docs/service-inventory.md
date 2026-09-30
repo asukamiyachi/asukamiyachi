@@ -25,19 +25,23 @@ The GitHub profile should stay curated: only high-signal items belong in the vis
 - Google Cloud
 - Docker
 - Git
-- GitHub
 - Figma
-
-### Design / Collaboration
-- Adobe Illustrator
-- Adobe Photoshop
-- Discord
-- Slack
-
-### Delivery / Network / Hardware
-- DeployGate
 - Tailscale
 - Bambu Lab
+
+### Design
+- Adobe Illustrator
+- Adobe Photoshop
+
+### Collaboration / Distribution / Professional
+- Discord
+- GitHub
+- Slack
+- DeployGate
+- App Tester
+- LinkedIn
+- Facebook
+- Eight
 
 ### AI / Tools
 - OpenAI
@@ -51,14 +55,9 @@ The GitHub profile should stay curated: only high-signal items belong in the vis
 
 These are intentionally kept out of the primary profile for now so the profile does not become a logo wall.
 
-### App distribution / Testing
-- App Tester
-
 ### Social / Professional
 - Instagram
-- Facebook
-- LinkedIn
-- Eight
+- X
 
 ## Display policy
 
