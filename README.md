@@ -30,20 +30,5 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./assets/ghostty-logo.svg" height="36" alt="Ghostty" />
 
-<br/><br/>
-
-<code>ROBOTICS</code>
-&nbsp;·&nbsp;
-<code>MOBILE</code>
-&nbsp;·&nbsp;
-<code>CLOUD</code>
-&nbsp;·&nbsp;
-<code>AUTOMATION</code>
-&nbsp;·&nbsp;
-<code>PRODUCT</code>
-
-<br/><br/>
-
-<b>BUILD → SHIP → LEARN → SCALE</b>
 
 </div>
