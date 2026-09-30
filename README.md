@@ -1,7 +1,7 @@
 <div align="center">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/hero-v3-mobile.svg" />
-  <img src="./assets/hero-v3-compact.svg" width="100%" align="top" alt="Asuka Miyachi — AI / Robotics / Product / Software" />
+  <source media="(max-width: 600px)" srcset="./assets/hero-v4-japanese-mobile.svg" />
+  <img src="./assets/hero-v4-japanese.svg" width="100%" align="top" alt="Asuka Miyachi — Japanese-inspired profile hero" />
 </picture>
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" align="top" alt="Asuka Miyachi’s 3D GitHub contribution graph with animated shockwaves" />
 </div>
