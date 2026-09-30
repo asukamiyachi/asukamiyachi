@@ -8,46 +8,6 @@
 
 </div>
 
-<br/>
-
-<h3 align="center">SELECTED BUILDS</h3>
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### ⚡ AURORA TERMINAL
-
-**A reproducible macOS engineering cockpit.**  
-Ghostty · zsh · Starship · Atuin · automation
-
-[Open repository ↗](https://github.com/asukamiyachi/Ghostty-Terminal)
-
-</td>
-<td width="33%" valign="top">
-
-### ⌨️ MAC AUTOMATION
-
-**Keyboard-first control for the whole desktop.**  
-Hammerspoon · Lua · workflows · launchers
-
-[Open repository ↗](https://github.com/asukamiyachi/hammerspoon-workflow)
-
-</td>
-<td width="33%" valign="top">
-
-### 🤖 HANABI ROBOTICS
-
-**Building robots with a real competition team.**  
-FRC #9494 · FTC #17792 · software + systems
-
-[Team repository ↗](https://github.com/9494hanabi/hibana)
-
-</td>
-</tr>
-</table>
-
-<br/>
 
 <h3 align="center">LIVE ACTIVITY</h3>
 
