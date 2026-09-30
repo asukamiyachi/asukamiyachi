@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="180" viewBox="0 0 960 180" role="img" aria-labelledby="title desc">
+  <title id="title">Asuka Miyachi</title>
+  <desc id="desc">Warm Japanese-inspired profile hero with washi paper, seigaiha, sakura, a gold enso, and editorial typography.</desc>
+
+  <!--
+    EDIT ZONE
+    #background      overall paper tone + texture
+    #name            main romanized name
+    #specialty       small specialty line
+    #enso            large gold ring behind left side of the name
+    #branch-left     main blossom branch
+    #branch-right    small blossom branch
+    #seal            stamp-like AM mark
+    #grid            right-side architectural grid
+    #accent-brush    vermilion brush stroke near the first A
+  -->
+
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf6ea"/>
+      <stop offset="0.55" stop-color="#f7efdf"/>
+      <stop offset="1" stop-color="#f2e5cc"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8ba78"/>
+      <stop offset="0.45" stop-color="#b99250"/>
+      <stop offset="1" stop-color="#ebd6a1"/>
+    </linearGradient>
+    <pattern id="seigaiha" width="32" height="16" patternUnits="userSpaceOnUse">
+      <path d="M0 16C0 7.2 7.2 0 16 0s16 7.2 16 16M8 16c0-4.4 3.6-8 8-8s8 3.6 8 8" fill="none" stroke="#e6d3ac" stroke-width="1.2"/>
+    </pattern>
+    <filter id="paperNoise" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+      <feComponentTransfer in="mono" result="softNoise"><feFuncA type="table" tableValues="0 0.06"/></feComponentTransfer>
+      <feBlend in="SourceGraphic" in2="softNoise" mode="multiply"/>
+    </filter>
+    <g id="blossom">
+      <circle cx="0" cy="-8" r="7.4" fill="#fff9f4" stroke="#e7a7a2" stroke-width="1"/>
+      <circle cx="7" cy="-2.5" r="7.4" fill="#fff9f4" stroke="#e7a7a2" stroke-width="1"/>
+      <circle cx="4.8" cy="6.2" r="7.4" fill="#fff9f4" stroke="#e7a7a2" stroke-width="1"/>
+      <circle cx="-4.8" cy="6.2" r="7.4" fill="#fff9f4" stroke="#e7a7a2" stroke-width="1"/>
+      <circle cx="-7" cy="-2.5" r="7.4" fill="#fff9f4" stroke="#e7a7a2" stroke-width="1"/>
+      <circle cx="0" cy="0" r="2.4" fill="#c86d67"/>
+    </g>
+    <g id="petal"><path d="M0 0C4 -3 10 -2 13 2C10 7 5 9 0 8C-2 4 -2 2 0 0Z" fill="#e9b0ac" opacity="0.78"/></g>
+  </defs>
+
+  <rect id="background" width="960" height="180" fill="url(#paper)" filter="url(#paperNoise)"/>
+  <rect x="0.75" y="0.75" width="958.5" height="178.5" fill="none" stroke="#0f1a2b" stroke-width="1.5"/>
+
+  <rect x="0" y="0" width="182" height="180" fill="url(#seigaiha)" opacity="0.95"/>
+  <rect x="790" y="105" width="170" height="75" fill="url(#seigaiha)" opacity="0.7"/>
+
+  <circle cx="832" cy="84" r="70" fill="#edd9ae" opacity="0.25"/>
+  <g fill="#dfcfad" opacity="0.55">
+    <path d="M620 34c10-8 25-8 34 0h31c7 0 12 4 12 9s-5 9-12 9h-74c-7 0-12-4-12-9s5-9 12-9h9Z"/>
+    <path d="M355 108c9-7 22-7 30 0h27c7 0 12 4 12 9s-5 9-12 9h-64c-7 0-12-4-12-9s5-9 12-9h7Z"/>
+  </g>
+
+  <g opacity="0.95">
+    <path d="M26 96H932" fill="none" stroke="#b59d74" stroke-width="1.2"/>
+    <path d="M51 64V126" fill="none" stroke="#b59d74" stroke-width="1"/>
+    <path d="M910 70V122" fill="none" stroke="#b59d74" stroke-width="1"/>
+    <rect x="48" y="92" width="8" height="8" fill="#b59d74"/>
+    <circle cx="911" cy="96" r="5.5" fill="#d34430"/>
+  </g>
+
+  <g id="enso" transform="translate(238 90) rotate(-18)">
+    <circle r="74" fill="none" stroke="url(#gold)" stroke-width="12" stroke-linecap="round" stroke-dasharray="350 110" opacity="0.82"/>
+    <circle r="63" fill="none" stroke="#ebd9b0" stroke-width="2.5" stroke-dasharray="240 140" opacity="0.42"/>
+  </g>
+
+  <g id="branch-left">
+    <path d="M-26 150C20 145 55 132 91 111c21-12 47-32 74-42" fill="none" stroke="#5d4c3e" stroke-width="5" stroke-linecap="round"/>
+    <path d="M40 126c-9-10-14-24-12-40M87 110c9-14 20-25 31-33M116 95c2-12 8-22 18-31" fill="none" stroke="#6f5b4a" stroke-width="2.2" stroke-linecap="round"/>
+    <use href="#blossom" transform="translate(46 130) scale(1.1)"/>
+    <use href="#blossom" transform="translate(80 112) scale(0.72)"/>
+    <use href="#blossom" transform="translate(111 93) scale(0.62)"/>
+    <use href="#blossom" transform="translate(29 144) scale(0.56)"/>
+    <g fill="#cb6f67"><circle cx="103" cy="77" r="3.7"/><circle cx="119" cy="68" r="3"/><circle cx="128" cy="62" r="3.2"/></g>
+  </g>
+
+  <g id="branch-right" opacity="0.92">
+    <path d="M833 16c37 0 70-10 114-28" fill="none" stroke="#645141" stroke-width="3.6" stroke-linecap="round"/>
+    <use href="#blossom" transform="translate(864 16) scale(0.52)"/>
+    <use href="#blossom" transform="translate(902 8) scale(0.56)"/>
+    <g fill="#cb6f67"><circle cx="845" cy="18" r="2.5"/><circle cx="880" cy="11" r="2.4"/></g>
+  </g>
+
+  <g id="accent-brush" opacity="0.97">
+    <path d="M136 114C160 96 182 88 209 90" fill="none" stroke="#d63b2c" stroke-width="7" stroke-linecap="round"/>
+    <path d="M136 114C168 98 187 94 224 94" fill="none" stroke="#ee7f54" stroke-width="2.2" stroke-linecap="round" opacity="0.78"/>
+  </g>
+
+  <g fill="#d6b266" opacity="0.94">
+    <path d="M305 18l4 4 4-4-4-4-4 4Zm18 124l4 4 4-4-4-4-4 4Zm236-8l4 4 4-4-4-4-4 4Zm383-19l4 4 4-4-4-4-4 4Zm-574 34l4 4 4-4-4-4-4 4Z"/>
+    <path d="M66 40h3l1.5-3 1.5 3h3l-2.4 1.7.9 3-2.9-1.9-2.9 1.9.9-3Z"/>
+    <path d="M736 33h3l1.5-3 1.5 3h3l-2.4 1.7.9 3-2.9-1.9-2.9 1.9.9-3Z"/>
+  </g>
+
+  <use href="#petal" transform="translate(438 36) rotate(-12) scale(1.0)"/>
+  <use href="#petal" transform="translate(527 52) rotate(8) scale(1.1)"/>
+  <use href="#petal" transform="translate(690 61) rotate(16) scale(0.95)"/>
+  <use href="#petal" transform="translate(622 128) rotate(-16) scale(0.9)"/>
+  <use href="#petal" transform="translate(800 136) rotate(-4) scale(0.88)"/>
+  <use href="#petal" transform="translate(263 146) rotate(-10) scale(0.9)"/>
+
+  <g id="grid" stroke="#cbb78d" stroke-width="1" opacity="0.8">
+    <path d="M744 0V150M790 0V180M834 0V180M878 0V160M922 0V180"/>
+    <path d="M712 34H960M712 77H960M712 120H960"/>
+    <path d="M915 38v52M890 64h50" stroke="#b99865"/>
+  </g>
+  <g opacity="0.9">
+    <path d="M910 92v17" fill="none" stroke="#bc9d6d" stroke-width="1" stroke-dasharray="2 3"/>
+    <path d="M910 107v19" fill="none" stroke="#bc9d6d" stroke-width="1" stroke-dasharray="2 3"/>
+  </g>
+
+  <g id="name"><text x="136" y="112" fill="#253b55" font-family="Georgia,'Times New Roman',serif" font-size="72" font-weight="500" letter-spacing="3.2">ASUKA MIYACHI</text></g>
+
+  <g id="seal" transform="translate(850 118)">
+    <rect width="40" height="40" rx="1.5" fill="none" stroke="#d34131" stroke-width="2.4"/>
+    <rect x="4" y="4" width="32" height="32" fill="#d34131" opacity="0.08"/>
+    <path d="M9 29V10h8v19M9 21h8M23 29V10l4 7 4-7v19" fill="none" stroke="#d34131" stroke-width="2.1" stroke-linejoin="miter"/>
+  </g>
+
+  <path d="M904 136h20" fill="none" stroke="#b99865" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M904 142h26c4 0 6 2 6 5s-2 5-6 5h-22" fill="none" stroke="#b99865" stroke-width="1.5" stroke-linecap="round"/>
+  <text id="specialty" x="925" y="164" text-anchor="end" fill="#6f6a60" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600" letter-spacing="1.1">AI / ROBOTICS / PRODUCT / SOFTWARE</text>
+</svg>
