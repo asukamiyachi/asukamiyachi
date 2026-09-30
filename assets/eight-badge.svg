@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="78" height="34" viewBox="0 0 78 34" role="img" aria-labelledby="title">
-  <title id="title">Eight</title>
-  <style>
-    .bg{fill:#F7FAFF;stroke:#D8E6FF}.word{fill:#2878E8}
-    @media(prefers-color-scheme:dark){.bg{fill:#111827;stroke:#27466F}.word{fill:#69A7FF}}
-  </style>
-  <rect class="bg" x=".5" y=".5" width="77" height="33" rx="7"/>
-  <text class="word" x="39" y="22" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="15" font-weight="750" letter-spacing="-.2">Eight</text>
-</svg>
