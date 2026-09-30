@@ -20,7 +20,7 @@
 
 <img src="./assets/openai-logomark.svg" height="34" alt="OpenAI" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/logo_qwen3.png" height="34" alt="Qwen" />
+<img src="./assets/qwen-logo.svg" height="34" alt="Qwen" />
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./assets/bonsai-logo.svg" height="34" alt="Bonsai AI" />
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -31,13 +31,9 @@
 <br/><br/>
 
 <code>GHOSTTY</code>
-&nbsp;·&nbsp;
-<code>GOOGLE SERVICES</code>
 
 <br/><br/>
 
-<code>AI</code>
-&nbsp;·&nbsp;
 <code>ROBOTICS</code>
 &nbsp;·&nbsp;
 <code>MOBILE</code>
