@@ -32,7 +32,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Delay below-the-fold animation
+      - name: Apply continuous contribution wave
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -41,25 +41,44 @@ jobs:
           path = Path("profile-3d-contrib/profile-night-rainbow.svg")
           text = path.read_text()
 
-          # The generated rainbow uses negative phase offsets so its animation
-          # is already well underway at page load. Shift every phase by +12s:
-          # the first cells begin about 2s after the SVG loads and the wave
-          # continues starting progressively through about 12s.
-          def shift(match):
-              seconds = float(match.group(1)) + 12.0
-              return f"animation-delay:{seconds:.3f}s"
-
-          text, count = re.subn(
-              r"animation-delay:([-+]?\\d+(?:\\.\\d+)?)s",
-              shift,
-              text,
+          # Add a subtle, continuous vertical ripple to each contribution cell.
+          # Negative begin times mean the wave is already in motion whenever
+          # the SVG becomes visible; neighboring cells are phase-shifted so
+          # motion travels diagonally across the contribution field.
+          cell = re.compile(
+              r'(<g transform="translate\\(([-+]?\\d+(?:\\.\\d+)?) ([-+]?\\d+(?:\\.\\d+)?)\\)">)'
+              r'(?=<(?:animateTransform|rect stroke="none"))'
           )
 
-          if count == 0:
-              raise SystemExit("No animation-delay values found; generator format may have changed")
+          duration = 3.6
+          count = 0
+
+          def add_wave(match):
+              nonlocal_count[0] += 1
+              x = float(match.group(2))
+              y = float(match.group(3))
+              phase = ((x + 0.70 * y) / 20.0 * 0.10) % duration
+              begin = -phase
+              wave = (
+                  '<animateTransform attributeName="transform" '
+                  'type="translate" additive="sum" '
+                  'values="0 0;0 -7;0 0;0 4;0 0" '
+                  f'dur="{duration:.1f}s" begin="{begin:.3f}s" '
+                  'repeatCount="indefinite"></animateTransform>'
+              )
+              return match.group(1) + wave
+
+          nonlocal_count = [0]
+          text = cell.sub(add_wave, text)
+          count = nonlocal_count[0]
+
+          if count < 300:
+              raise SystemExit(
+                  f"Only {count} contribution cells matched; generator format may have changed"
+              )
 
           path.write_text(text)
-          print(f"Shifted {count} animation delays by +12s")
+          print(f"Added continuous wave motion to {count} contribution cells")
           PY
 
       - name: Commit generated profile
