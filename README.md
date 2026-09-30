@@ -30,6 +30,16 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./assets/ghostty-logo.svg" height="36" alt="Ghostty" />
 
+<br/><br/>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg" height="34" alt="Slack" title="Slack" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://dl.svgcdn.com/svg/arcticons/deploygate.svg" height="34" alt="DeployGate" title="DeployGate" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/tailscale-logo.svg" height="34" alt="Tailscale" title="Tailscale" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/bambulab-logo.svg" height="34" alt="Bambu Lab" title="Bambu Lab" />
+
 </div>
 
 <!-- Full service inventory: docs/service-inventory.md -->
