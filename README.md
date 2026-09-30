@@ -27,10 +27,8 @@
 <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="36" alt="Hugging Face" />
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://cdn.simpleicons.org/googlegemini" height="34" alt="Google Gemini" />
-
-<br/><br/>
-
-<code>GHOSTTY</code>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/ghostty-logo.svg" height="36" alt="Ghostty" />
 
 <br/><br/>
 
