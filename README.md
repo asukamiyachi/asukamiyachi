@@ -25,7 +25,25 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,c,dart,flutter,swift,ts,js,lua,firebase,docker,git,github,figma&perline=13" alt="Technology stack" />
+<img src="https://skillicons.dev/icons?i=python,c,dart,flutter,swift,kotlin,ts,js,lua,nextjs&perline=10" alt="Languages and application stack" />
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=firebase,supabase,vercel,cloudflare,gcp,docker,git,github,figma&perline=9" alt="Cloud, platform and development tools" />
+
+<br/><br/>
+
+<code>OPENAI</code>
+&nbsp;·&nbsp;
+<code>QWEN</code>
+&nbsp;·&nbsp;
+<code>BONSAI AI</code>
+&nbsp;·&nbsp;
+<code>HUGGING FACE</code>
+&nbsp;·&nbsp;
+<code>GHOSTTY</code>
+&nbsp;·&nbsp;
+<code>GOOGLE SERVICES</code>
 
 <br/><br/>
 
@@ -34,6 +52,8 @@
 <code>ROBOTICS</code>
 &nbsp;·&nbsp;
 <code>MOBILE</code>
+&nbsp;·&nbsp;
+<code>CLOUD</code>
 &nbsp;·&nbsp;
 <code>AUTOMATION</code>
 &nbsp;·&nbsp;
