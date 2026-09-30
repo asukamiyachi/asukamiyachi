@@ -38,7 +38,7 @@ The GitHub profile should stay curated: only high-signal items belong in the vis
 - GitHub
 - Slack
 - DeployGate
-- App Tester
+- Firebase App Tester
 - LinkedIn
 - Facebook
 - Eight
