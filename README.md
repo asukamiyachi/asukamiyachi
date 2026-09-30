@@ -1,25 +1,22 @@
 <div align="center">
 
-<img src="./assets/hero-v2.svg" width="100%" alt="Asuka Miyachi — AI, Robotics, Product and Software" />
+<img src="./assets/hero-v3-compact.svg" width="100%" alt="Asuka Miyachi — AI, Robotics, Product and Software" />
+
+<img src="./assets/openai-logomark.svg" height="28" alt="OpenAI" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/logo_qwen3.png" height="28" alt="Qwen" />
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/bonsai-logo.svg" height="28" alt="Bonsai AI" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="30" alt="Hugging Face" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/googlegemini" height="28" alt="Google Gemini" />
 
 <br/>
-
-<img src="./assets/signal-v2.svg" width="100%" alt="Current focus: AI systems, robotics, product and developer tools" />
-
-</div>
-
-
-<h3 align="center">LIVE ACTIVITY</h3>
-
-<div align="center">
 
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" loading="lazy" alt="3D GitHub contribution graph" />
 
-<sub>Auto-generated from GitHub activity and refreshed daily.</sub>
-
 </div>
-
-<br/>
 
 <h3 align="center">TOOLBOX</h3>
 
@@ -33,14 +30,6 @@
 
 <br/><br/>
 
-<code>OPENAI</code>
-&nbsp;·&nbsp;
-<code>QWEN</code>
-&nbsp;·&nbsp;
-<code>BONSAI AI</code>
-&nbsp;·&nbsp;
-<code>HUGGING FACE</code>
-&nbsp;·&nbsp;
 <code>GHOSTTY</code>
 &nbsp;·&nbsp;
 <code>GOOGLE SERVICES</code>
