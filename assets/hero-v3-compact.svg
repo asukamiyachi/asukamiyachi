@@ -84,38 +84,24 @@
       font-weight="700"
       letter-spacing="1.8">BUILD → SHIP → LEARN → SCALE</text>
 
-    <g transform="translate(758 48)">
+    <g transform="translate(790 78)">
       <text x="0" y="0"
-        fill="#64748b"
+        fill="#94a3b8"
+        font-family="'SFMono-Regular','JetBrains Mono','Cascadia Mono','Courier New',monospace"
+        font-size="12"
+        font-weight="700"
+        letter-spacing="2.4">LIVE_ACTIVITY ↓</text>
+
+      <rect x="0" y="18" width="250" height="3" rx="1.5" fill="url(#accent)">
+        <animate attributeName="width" values="70;250;150;250" dur="3.4s" repeatCount="indefinite"/>
+      </rect>
+
+      <text x="0" y="54"
+        fill="#475569"
         font-family="'SFMono-Regular','JetBrains Mono','Cascadia Mono','Courier New',monospace"
         font-size="10"
         font-weight="700"
-        letter-spacing="2.8">CURRENT_VECTOR</text>
-
-      <text x="0" y="34"
-        fill="#f8fafc"
-        font-family="'Arial Narrow','Avenir Next Condensed','Helvetica Neue',Arial,sans-serif"
-        font-size="16"
-        font-weight="800"
-        letter-spacing=".9">AI SYSTEMS / ROBOTICS / PRODUCT</text>
-
-      <text x="0" y="57"
-        fill="#cbd5e1"
-        font-family="'Arial Narrow','Avenir Next Condensed','Helvetica Neue',Arial,sans-serif"
-        font-size="16"
-        font-weight="800"
-        letter-spacing=".9">DEV TOOLS / AUTOMATION</text>
-
-      <rect x="0" y="72" width="330" height="3" rx="1.5" fill="url(#accent)">
-        <animate attributeName="width" values="75;330;205;330" dur="3.6s" repeatCount="indefinite"/>
-      </rect>
-
-      <text x="0" y="101"
-        fill="#94a3b8"
-        font-family="'SFMono-Regular','JetBrains Mono','Cascadia Mono','Courier New',monospace"
-        font-size="11"
-        font-weight="700"
-        letter-spacing="2">LIVE_ACTIVITY ↓</text>
+        letter-spacing="2">SCROLL TO THE GRAPH</text>
     </g>
 
     <path d="M722 28V162" stroke="url(#accent)" stroke-width="1.5" stroke-opacity=".35"/>
