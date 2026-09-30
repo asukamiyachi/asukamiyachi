@@ -16,14 +16,14 @@
 </p>
 <p align="center">
   <img src="./assets/openai-logomark.svg" width="28" height="28" alt="OpenAI" title="OpenAI" />
-  &nbsp;&nbsp;
+  &nbsp;
   <img src="./assets/qwen-logo.svg" width="90" height="24" alt="Qwen" title="Qwen" />
-  &nbsp;&nbsp;
+  &nbsp;
   <img src="./assets/bonsai-logo.svg" width="42" height="26" alt="Bonsai AI" title="Bonsai AI" />
-  &nbsp;&nbsp;
+  &nbsp;
   <img src="./assets/huggingface-logo.svg" width="30" height="30" alt="Hugging Face" title="Hugging Face" />
-  &nbsp;&nbsp;
+  &nbsp;
   <img src="./assets/gemini-logo.svg" width="28" height="28" alt="Google Gemini" title="Google Gemini" />
-  &nbsp;&nbsp;
+  &nbsp;
   <img src="./assets/ghostty-logo.svg" width="26" height="31" alt="Ghostty" title="Ghostty" />
 </p>
