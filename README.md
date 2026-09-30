@@ -2,18 +2,6 @@
 
 <img src="./assets/hero-v3-compact.svg" width="100%" alt="Asuka Miyachi — AI, Robotics, Product and Software" />
 
-<img src="./assets/openai-logomark.svg" height="28" alt="OpenAI" />
-&nbsp;&nbsp;&nbsp;
-<img src="https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/logo_qwen3.png" height="28" alt="Qwen" />
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/bonsai-logo.svg" height="28" alt="Bonsai AI" />
-&nbsp;&nbsp;&nbsp;
-<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="30" alt="Hugging Face" />
-&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/googlegemini" height="28" alt="Google Gemini" />
-
-<br/>
-
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" loading="lazy" alt="3D GitHub contribution graph" />
 
 </div>
@@ -27,6 +15,18 @@
 <br/><br/>
 
 <img src="https://skillicons.dev/icons?i=firebase,supabase,vercel,cloudflare,gcp,docker,git,github,figma&perline=9" alt="Cloud, platform and development tools" />
+
+<br/><br/>
+
+<img src="./assets/openai-logomark.svg" height="34" alt="OpenAI" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/logo_qwen3.png" height="34" alt="Qwen" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/bonsai-logo.svg" height="34" alt="Bonsai AI" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="36" alt="Hugging Face" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/googlegemini" height="34" alt="Google Gemini" />
 
 <br/><br/>
 
