@@ -1,41 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="168" viewBox="0 0 480 168" role="img" aria-labelledby="title desc">
-  <title id="title">Asuka Miyachi — AI, Robotics, Product and Software</title>
-  <desc id="desc">Quiet typography, a fine rule, and a vermilion AM monogram.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="180" viewBox="0 0 480 180" role="img" aria-labelledby="title desc">
+  <title id="title">Asuka Miyachi</title>
+  <desc id="desc">A compact Japanese-inspired profile hero with warm washi tones, an enso, blossoms, and a vermilion accent.</desc>
 
-  <!-- Edit text in #profile-name / #profile-fields; palette in this style block.
-       Compact layout for README viewports up to 600px. Keep wording and palette in sync with hero-v3-compact.svg.
-       No external fonts or animation: the contribution field carries the motion. -->
-  <style>
-    #background { fill: #F5F3EE; }
-    #profile-name { fill: #20201E; }
-    #profile-fields { fill: #62615D; }
-    #rules { stroke: #C9C7C0; }
-    @media (prefers-color-scheme: dark) {
-      #background { fill: #191A19; }
-      #profile-name { fill: #F5F3EE; }
-      #profile-fields { fill: #B6B5AE; }
-      #rules { stroke: #41423E; }
-    }
-  </style>
+  <!-- Mobile companion to hero-v3-compact.svg. Keep #profile-name / #profile-fields easy to edit. -->
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf6ea"/>
+      <stop offset="1" stop-color="#f1e4cc"/>
+    </linearGradient>
+    <pattern id="seigaiha" width="24" height="12" patternUnits="userSpaceOnUse">
+      <path d="M0 12C0 5.4 5.4 0 12 0s12 5.4 12 12M6 12c0-3.3 2.7-6 6-6s6 2.7 6 6" fill="none" stroke="#c9a96b" stroke-width=".8"/>
+    </pattern>
+  </defs>
 
-  <rect id="background" width="480" height="168"/>
-  <g id="rules" fill="none" stroke-width="1">
-    <path d="M24 16.5H456"/>
+  <rect id="background" width="480" height="180" fill="url(#paper)"/>
+  <rect x="0" y="105" width="160" height="75" fill="url(#seigaiha)" opacity=".18"/>
+
+  <g id="shoji" opacity=".27" stroke="#c7b184" stroke-width=".8">
+    <circle cx="406" cy="72" r="48" fill="#dec58e" stroke="none" opacity=".3"/>
+    <path d="M360 0V180M390 0V180M420 0V180M450 0V180"/>
+    <path d="M340 32H480M340 72H480M340 112H480M340 152H480"/>
   </g>
 
-  <!-- Live SVG text, with system fonts only. -->
-  <g id="profile-name" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="54" font-weight="500" letter-spacing="-2.5">
-    <text x="22" y="61">ASUKA</text>
-    <text x="22" y="109">MIYACHI</text>
+  <g id="enso" transform="translate(116 91) rotate(-14)">
+    <circle r="63" fill="none" stroke="#c4a05d" stroke-width="10" stroke-linecap="round" stroke-dasharray="295 96" opacity=".72"/>
   </g>
-  <text id="profile-fields" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18" letter-spacing="0.3">
-    <tspan x="24" y="136">AI / ROBOTICS /</tspan>
-    <tspan x="24" y="157">PRODUCT / SOFTWARE</tspan>
-  </text>
 
-  <!-- One geometric AM mark, not a literal seal. -->
-  <g id="identity-mark" transform="translate(414 38)">
-    <rect id="accent" width="42" height="42" fill="#E34432"/>
-    <path d="M8 30V12H18V30M8 22H18M24 30V12L29 20L34 12V30" fill="none" stroke="#F5F3EE" stroke-width="2" stroke-linejoin="miter"/>
+  <g id="branch-left">
+    <path d="M-10 161C28 153 50 139 75 120c17-13 30-21 47-29" fill="none" stroke="#5b4b3d" stroke-width="3.4" stroke-linecap="round"/>
+    <g fill="#fffaf3" stroke="#df9b97" stroke-width=".8">
+      <g transform="translate(48 139) scale(.65)"><circle r="9"/><circle cx="7" cy="-4" r="7"/><circle cx="-6" cy="-5" r="7"/><circle cx="4" cy="7" r="7"/><circle cx="-5" cy="6" r="7"/><circle r="2.2" fill="#c86d67"/></g>
+      <g transform="translate(84 113) scale(.52)"><circle r="9"/><circle cx="7" cy="-4" r="7"/><circle cx="-6" cy="-5" r="7"/><circle cx="4" cy="7" r="7"/><circle cx="-5" cy="6" r="7"/><circle r="2.2" fill="#c86d67"/></g>
+    </g>
   </g>
+
+  <path d="M24 103H456" stroke="#9f8a63" stroke-width=".8" opacity=".62"/>
+  <circle cx="446" cy="103" r="4.5" fill="#c7372d"/>
+
+  <g id="profile-name" fill="#253649" font-family="Georgia,'Times New Roman',serif" font-weight="500" letter-spacing="2">
+    <text x="42" y="75" font-size="52">ASUKA</text>
+    <text x="42" y="126" font-size="52">MIYACHI</text>
+  </g>
+
+  <path id="accent" d="M36 72C58 58 78 54 102 56c-14 4-29 10-49 23" fill="none" stroke="#c7372d" stroke-width="5.2" stroke-linecap="round"/>
+
+  <g id="identity-mark" transform="translate(409 123)">
+    <rect width="31" height="31" fill="none" stroke="#c7372d" stroke-width="1.8"/>
+    <path d="M7 23V8h7v15M7 17h7M19 23V8l3.5 6 3.5-6v15" fill="none" stroke="#c7372d" stroke-width="1.7"/>
+  </g>
+
+  <text id="profile-fields" x="24" y="166" fill="#776e61"
+    font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace"
+    font-size="9.8" font-weight="600" letter-spacing=".7">AI / ROBOTICS / PRODUCT / SOFTWARE</text>
 </svg>
