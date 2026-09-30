@@ -41,7 +41,7 @@ jobs:
           path = Path("profile-3d-contrib/profile-night-rainbow.svg")
           text = path.read_text()
 
-          # Add a subtle, continuous vertical ripple to each contribution cell.
+          # Add a punchy, continuous travelling wave to each contribution cell.
           # Negative begin times mean the wave is already in motion whenever
           # the SVG becomes visible; neighboring cells are phase-shifted so
           # motion travels diagonally across the contribution field.
@@ -50,21 +50,31 @@ jobs:
               r'(?=<(?:animateTransform|rect stroke="none"))'
           )
 
-          duration = 3.6
+          duration = 2.4
           count = 0
 
           def add_wave(match):
               nonlocal_count[0] += 1
               x = float(match.group(2))
               y = float(match.group(3))
-              phase = ((x + 0.70 * y) / 20.0 * 0.10) % duration
+              phase = ((x + 0.72 * y) / 20.0 * 0.135) % duration
               begin = -phase
               wave = (
                   '<animateTransform attributeName="transform" '
                   'type="translate" additive="sum" '
-                  'values="0 0;0 -7;0 0;0 4;0 0" '
+                  'values="0 0;3 -18;0 -3;-2 8;0 0" '
+                  'keyTimes="0;0.20;0.44;0.72;1" '
+                  'calcMode="spline" '
+                  'keySplines="0.2 0.8 0.2 1;0.4 0 0.6 1;0.2 0.8 0.2 1;0.4 0 0.6 1" '
                   f'dur="{duration:.1f}s" begin="{begin:.3f}s" '
                   'repeatCount="indefinite"></animateTransform>'
+                  '<animate attributeName="opacity" '
+                  'values="0.86;1;0.94;0.82;0.86" '
+                  'keyTimes="0;0.20;0.44;0.72;1" '
+                  'calcMode="spline" '
+                  'keySplines="0.2 0.8 0.2 1;0.4 0 0.6 1;0.2 0.8 0.2 1;0.4 0 0.6 1" '
+                  f'dur="{duration:.1f}s" begin="{begin:.3f}s" '
+                  'repeatCount="indefinite"></animate>'
               )
               return match.group(1) + wave
 
