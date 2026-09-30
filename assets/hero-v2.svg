@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Asuka Miyachi — AI, Robotics, Product and Software</title>
+  <desc id="desc">Animated profile hero for Asuka Miyachi.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.5" stop-color="#090d1f"/>
+      <stop offset="1" stop-color="#050816"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee">
+        <animate attributeName="stop-color" values="#22d3ee;#a78bfa;#84cc16;#22d3ee" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#a78bfa">
+        <animate attributeName="stop-color" values="#a78bfa;#84cc16;#22d3ee;#a78bfa" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#84cc16">
+        <animate attributeName="stop-color" values="#84cc16;#22d3ee;#a78bfa;#84cc16" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#94a3b8" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="27" fill="none" stroke="#64748b" stroke-opacity=".2"/>
+
+  <g opacity=".75">
+    <circle cy="74" r="3.5" fill="#22d3ee" filter="url(#glow)">
+      <animate attributeName="cx" values="40;1160;40" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".3;1;.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="-260" y="0" width="220" height="360" fill="url(#accent)" opacity=".06" transform="skewX(-18)">
+      <animate attributeName="x" values="-260;1320" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="72" y="70" fill="#94a3b8" font-size="17" letter-spacing="4">ASUKA / 2026</text>
+    <text x="72" y="151" fill="#f8fafc" font-size="66" font-weight="800" letter-spacing="1">ASUKA MIYACHI</text>
+    <rect x="72" y="175" width="620" height="4" rx="2" fill="url(#accent)">
+      <animate attributeName="width" values="180;620;420;620" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="72" y="225" fill="#cbd5e1" font-size="24" font-weight="600">AI · ROBOTICS · PRODUCT · SOFTWARE</text>
+    <text x="72" y="267" fill="#64748b" font-size="18">Student engineer @ Kamiyama Marugoto College · Japan</text>
+    <text x="72" y="314" fill="#f8fafc" font-size="17" font-weight="700" letter-spacing="2">BUILD → SHIP → LEARN → SCALE</text>
+  </g>
+
+  <g transform="translate(930 178)">
+    <circle r="104" fill="none" stroke="#64748b" stroke-opacity=".18" stroke-width="1"/>
+    <circle r="74" fill="none" stroke="#64748b" stroke-opacity=".22" stroke-width="1"/>
+    <circle r="43" fill="none" stroke="url(#accent)" stroke-opacity=".65" stroke-width="2">
+      <animate attributeName="r" values="38;48;38" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".45;1;.45" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="104" cy="0" r="7" fill="#22d3ee" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-74" cy="0" r="5" fill="#a78bfa" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-6" text-anchor="middle" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="800" letter-spacing="2">SYSTEMS</text>
+    <text x="0" y="18" text-anchor="middle" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" letter-spacing="1">IN MOTION</text>
+  </g>
+</svg>
