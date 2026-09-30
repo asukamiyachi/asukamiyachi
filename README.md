@@ -53,7 +53,7 @@ FRC #9494 · FTC #17792 · software + systems
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub contribution graph" />
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" loading="lazy" alt="3D GitHub contribution graph" />
 
 <sub>Auto-generated from GitHub activity and refreshed daily.</sub>
 
