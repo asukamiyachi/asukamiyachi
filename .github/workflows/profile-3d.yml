@@ -32,6 +32,36 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Delay below-the-fold animation
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("profile-3d-contrib/profile-night-rainbow.svg")
+          text = path.read_text()
+
+          # The generated rainbow uses negative phase offsets so its animation
+          # is already well underway at page load. Shift every phase by +12s:
+          # the first cells begin about 2s after the SVG loads and the wave
+          # continues starting progressively through about 12s.
+          def shift(match):
+              seconds = float(match.group(1)) + 12.0
+              return f"animation-delay:{seconds:.3f}s"
+
+          text, count = re.subn(
+              r"animation-delay:([-+]?\\d+(?:\\.\\d+)?)s",
+              shift,
+              text,
+          )
+
+          if count == 0:
+              raise SystemExit("No animation-delay values found; generator format may have changed")
+
+          path.write_text(text)
+          print(f"Shifted {count} animation delays by +12s")
+          PY
+
       - name: Commit generated profile
         run: |
           git config user.name github-actions[bot]
