@@ -32,54 +32,80 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Apply continuous contribution wave
+      - name: Apply impact shockwave to contribution field
         run: |
           python3 - <<'PY'
           from pathlib import Path
+          import math
           import re
 
           path = Path("profile-3d-contrib/profile-night-rainbow.svg")
           text = path.read_text()
 
-          # Add a punchy, continuous travelling wave to each contribution cell.
-          # Negative begin times mean the wave is already in motion whenever
-          # the SVG becomes visible; neighboring cells are phase-shifted so
-          # motion travels diagonally across the contribution field.
+          # Turn the contribution field into a repeating radial shockwave.
+          # Each cell receives the same impact envelope, but its start time is
+          # delayed by distance from the center so the crest expands outward.
           cell = re.compile(
               r'(<g transform="translate\\(([-+]?\\d+(?:\\.\\d+)?) ([-+]?\\d+(?:\\.\\d+)?)\\)">)'
               r'(?=<(?:animateTransform|rect stroke="none"))'
           )
 
-          duration = 2.4
+          cx = 600.0
+          cy = 470.0
+          duration = 4.6
+          travel_time = 1.55
+          max_distance = 760.0
           count = 0
 
-          def add_wave(match):
+          def add_shockwave(match):
               nonlocal_count[0] += 1
+
               x = float(match.group(2))
               y = float(match.group(3))
-              phase = ((x + 0.72 * y) / 20.0 * 0.135) % duration
-              begin = -phase
+              dx = x - cx
+              dy = y - cy
+              distance = math.hypot(dx, dy)
+
+              # One ring starts at the center and reaches the field edge
+              # about 1.55s later. Negative begin values keep the loop already
+              # in progress whenever the profile becomes visible.
+              delay = min(distance / max_distance, 1.0) * travel_time
+              begin = delay - duration
+
+              # Give the ring a slight radial kick in addition to the large
+              # vertical lift so it reads as an impact rather than a sine wave.
+              radial_x = 0.0 if distance < 1.0 else (dx / distance) * 8.0
+
               wave = (
                   '<animateTransform attributeName="transform" '
                   'type="translate" additive="sum" '
-                  'values="0 0;3 -18;0 -3;-2 8;0 0" '
-                  'keyTimes="0;0.20;0.44;0.72;1" '
+                  f'values="0 0;{radial_x * 0.35:.2f} -8;{radial_x:.2f} -32;'
+                  f'{radial_x * -0.45:.2f} 12;{radial_x * 0.20:.2f} -5;0 0" '
+                  'keyTimes="0;0.06;0.13;0.22;0.34;1" '
                   'calcMode="spline" '
-                  'keySplines="0.2 0.8 0.2 1;0.4 0 0.6 1;0.2 0.8 0.2 1;0.4 0 0.6 1" '
+                  'keySplines="0.2 0.9 0.2 1;'
+                  '0.15 0.85 0.15 1;'
+                  '0.35 0 0.65 1;'
+                  '0.2 0.8 0.2 1;'
+                  '0.4 0 0.6 1" '
                   f'dur="{duration:.1f}s" begin="{begin:.3f}s" '
                   'repeatCount="indefinite"></animateTransform>'
                   '<animate attributeName="opacity" '
-                  'values="0.86;1;0.94;0.82;0.86" '
-                  'keyTimes="0;0.20;0.44;0.72;1" '
+                  'values="0.92;1;1;0.82;0.96;0.92" '
+                  'keyTimes="0;0.06;0.13;0.22;0.34;1" '
                   'calcMode="spline" '
-                  'keySplines="0.2 0.8 0.2 1;0.4 0 0.6 1;0.2 0.8 0.2 1;0.4 0 0.6 1" '
+                  'keySplines="0.2 0.9 0.2 1;'
+                  '0.15 0.85 0.15 1;'
+                  '0.35 0 0.65 1;'
+                  '0.2 0.8 0.2 1;'
+                  '0.4 0 0.6 1" '
                   f'dur="{duration:.1f}s" begin="{begin:.3f}s" '
                   'repeatCount="indefinite"></animate>'
               )
               return match.group(1) + wave
 
           nonlocal_count = [0]
-          text = cell.sub(add_wave, text)
+          text = cell.sub(add_shockwave, text)
           count = nonlocal_count[0]
 
           if count < 300:
@@ -88,7 +114,7 @@ jobs:
               )
 
           path.write_text(text)
-          print(f"Added continuous wave motion to {count} contribution cells")
+          print(f"Added radial impact shockwave to {count} contribution cells")
           PY
 
       - name: Commit generated profile
