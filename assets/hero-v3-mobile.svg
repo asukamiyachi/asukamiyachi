@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="168" viewBox="0 0 960 168" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="168" viewBox="0 0 480 168" role="img" aria-labelledby="title desc">
   <title id="title">Asuka Miyachi — AI, Robotics, Product and Software</title>
   <desc id="desc">Quiet typography, a fine rule, and a vermilion AM monogram.</desc>
 
   <!-- Edit text in #profile-name / #profile-fields; palette in this style block.
-       Desktop master. Keep wording and palette in sync with hero-v3-mobile.svg.
+       Compact layout for README viewports up to 600px. Keep wording and palette in sync with hero-v3-compact.svg.
        No external fonts or animation: the contribution field carries the motion. -->
   <style>
     #background { fill: #F5F3EE; }
@@ -18,19 +18,23 @@
     }
   </style>
 
-  <rect id="background" width="960" height="168"/>
+  <rect id="background" width="480" height="168"/>
   <g id="rules" fill="none" stroke-width="1">
-    <path d="M32 16.5H928"/>
+    <path d="M24 16.5H456"/>
   </g>
 
   <!-- Live SVG text, with system fonts only. -->
-  <g id="profile-name" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="84" font-weight="500" letter-spacing="-4">
-    <text x="28" y="103">ASUKA MIYACHI</text>
+  <g id="profile-name" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="54" font-weight="500" letter-spacing="-2.5">
+    <text x="22" y="61">ASUKA</text>
+    <text x="22" y="109">MIYACHI</text>
   </g>
-  <text id="profile-fields" x="928" y="145" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="17" letter-spacing="0.6">AI / ROBOTICS / PRODUCT / SOFTWARE</text>
+  <text id="profile-fields" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18" letter-spacing="0.3">
+    <tspan x="24" y="136">AI / ROBOTICS /</tspan>
+    <tspan x="24" y="157">PRODUCT / SOFTWARE</tspan>
+  </text>
 
   <!-- One geometric AM mark, not a literal seal. -->
-  <g id="identity-mark" transform="translate(886 53)">
+  <g id="identity-mark" transform="translate(414 38)">
     <rect id="accent" width="42" height="42" fill="#E34432"/>
     <path d="M8 30V12H18V30M8 22H18M24 30V12L29 20L34 12V30" fill="none" stroke="#F5F3EE" stroke-width="2" stroke-linejoin="miter"/>
   </g>
