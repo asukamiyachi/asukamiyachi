@@ -52,8 +52,8 @@ jobs:
 
           cx = 600.0
           cy = 470.0
-          duration = 4.6
-          travel_time = 1.55
+          duration = 2.6
+          travel_time = 0.65
           max_distance = 760.0
           count = 0
 
@@ -67,7 +67,7 @@ jobs:
               distance = math.hypot(dx, dy)
 
               # One ring starts at the center and reaches the field edge
-              # about 1.55s later. Negative begin values keep the loop already
+              # about 0.65s later. Negative begin values keep the loop already
               # in progress whenever the profile becomes visible.
               delay = min(distance / max_distance, 1.0) * travel_time
               begin = delay - duration
@@ -115,6 +115,55 @@ jobs:
 
           path.write_text(text)
           print(f"Added radial impact shockwave to {count} contribution cells")
+          PY
+
+      - name: Annotate AwaPet private language
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path("profile-3d-contrib/profile-night-rainbow.svg")
+          text = path.read_text()
+
+          chart = '<g transform="translate(40, 520)">'
+          chart_at = text.find(chart)
+          if chart_at < 0:
+              raise SystemExit("Language chart not found")
+
+          pie = '<g transform="translate(130, 130)">'
+          pie_at = text.find(pie, chart_at)
+          if pie_at < 0:
+              raise SystemExit("Language pie not found")
+
+          label_close = text.rfind('</g>', chart_at, pie_at)
+          if label_close < 0:
+              raise SystemExit("Language legend group end not found")
+
+          legend = (
+              '<rect x="0" y="200.417" width="21.667" height="21.667" '
+              'fill="#00B4AB" class="stroke-bg" stroke-width="1px"></rect>'
+              '<text dominant-baseline="middle" x="26" y="211.25" '
+              'class="fill-fg" font-size="21.667px">'
+              'Dart · AwaPet'
+              '<title>AwaPet is private; Dart is shown as a non-proportional language marker.</title>'
+              '</text>'
+          )
+          text = text[:label_close] + legend + text[label_close:]
+
+          pie_at = text.find(pie, chart_at)
+          ring = (
+              '<circle r="123" fill="none" stroke="#00B4AB" stroke-width="4" '
+              'stroke-dasharray="12 8" stroke-opacity="0.75">'
+              '<animate attributeName="stroke-opacity" values="0.35;1;0.35" '
+              'dur="2.6s" repeatCount="indefinite"></animate>'
+              '<title>Dart · AwaPet private</title>'
+              '</circle>'
+          )
+          insert_at = pie_at + len(pie)
+          text = text[:insert_at] + ring + text[insert_at:]
+
+          path.write_text(text)
+          print("Added Dart / AwaPet private language marker")
           PY
 
       - name: Commit generated profile
