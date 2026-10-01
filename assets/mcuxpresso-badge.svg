@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="48" viewBox="0 0 154 48" role="img" aria-labelledby="title">
+  <title id="title">MCUXpresso IDE</title>
+  <style>.bg{fill:#f6f7f9;stroke:#d5d8de}.label{fill:#202124}@media(prefers-color-scheme:dark){.bg{fill:#151922;stroke:#3a4352}.label{fill:#f3f5f7}}</style>
+  <rect class="bg" x=".75" y=".75" width="152.5" height="46.5" rx="10"/>
+  <g transform="translate(8 14) scale(.27)">
+    <path fill="#7BB1DB" d="M119.485 0.867h-4.027l-14.851 23.896L85.755.867h-4.04l.001 71.891h4.039l14.852-23.897 14.851 23.897 4.07-.002-.043-.058z"/>
+    <path fill="#958437" d="M81.715.867H59.689L81.688 36.81 59.689 72.758h22.027z"/>
+    <path fill="#739833" d="M141.525.867h-22.04v71.831l.043.058 21.994-.003-21.996-35.942z"/>
+    <path fill="#C9D200" d="M172.925.867h-31.4l-21.999 35.944 21.996 35.942h.01l-.01-15.88h37.166c15.603 0 20.274-12.287 20.274-22.987v-8.447c0-14.071-5.07-24.572-26.037-24.572zm5.493 29.005c0 4.262-1.987 9.166-7.156 9.166h-29.71V18.701h27.822c6.659 0 9.044 2.775 9.044 7.63z"/>
+    <path fill="#FFB500" d="M81.688 36.811 59.689.867 59.681.865l-.003 43.444L22.406.865H.38v71.893l22.046-.005-.009-43.439 37.272 43.444z"/>
+  </g>
+  <text class="label" x="69" y="29" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="700">MCUXpresso IDE</text>
+</svg>
