@@ -22,17 +22,28 @@
 
 <br/><br/>
 
-<img src="./assets/openai-logomark.svg" height="34" alt="OpenAI" />
+<img src="./assets/openai-logomark.svg" height="34" alt="OpenAI" title="OpenAI" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./assets/qwen-logo.svg" height="34" alt="Qwen" />
+<img src="https://gist.githubusercontent.com/jjoanna2-debug/7a0eb035e408311b4129c7837a389aa7/raw/rendered-bundle-icon-blue.png" height="34" alt="OpenAI Codex" title="Codex" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./assets/bonsai-logo.svg" height="34" alt="Bonsai AI" />
+<img src="./assets/claude-logo.svg" height="34" alt="Claude" title="Claude" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./assets/huggingface-logo.svg" height="36" alt="Hugging Face" />
+<img src="./assets/gemini-logo.svg" height="34" alt="Google Gemini" title="Google Gemini" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./assets/gemini-logo.svg" height="34" alt="Google Gemini" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Grok-icon.svg" height="34" alt="Grok" title="Grok" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./assets/ghostty-logo.svg" height="36" alt="Ghostty" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zai-org/ZCode/29628c9acdb81b703bbd4080c207a0e7ce5e276e/packages/ui/src/assets/cli-icons/icon-glm-for-dark.png" />
+  <img src="https://raw.githubusercontent.com/zai-org/ZCode/29628c9acdb81b703bbd4080c207a0e7ce5e276e/packages/ui/src/assets/cli-icons/icon-glm-for-light.png" height="34" alt="GLM-5.3" title="GLM-5.3" />
+</picture>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/qwen-logo.svg" height="34" alt="Qwen" title="Qwen" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/bonsai-logo.svg" height="34" alt="Bonsai AI" title="Bonsai AI" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/huggingface-logo.svg" height="36" alt="Hugging Face" title="Hugging Face" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/ghostty-logo.svg" height="36" alt="Ghostty" title="Ghostty" />
 
 <br/><br/>
 
