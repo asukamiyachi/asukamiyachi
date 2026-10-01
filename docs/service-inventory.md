@@ -43,6 +43,7 @@ The GitHub profile should stay curated: only high-signal items belong in the vis
 - MCUXpresso IDE
 - Apple Developer
 - Xcode
+- IchigoJam
 
 ### Collaboration / Distribution / Professional
 - Discord
