@@ -117,7 +117,7 @@ jobs:
           print(f"Added radial impact shockwave to {count} contribution cells")
           PY
 
-      - name: Annotate AwaPet private language
+      - name: Annotate private Dart language
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -144,8 +144,8 @@ jobs:
               'fill="#00B4AB" class="stroke-bg" stroke-width="1px"></rect>'
               '<text dominant-baseline="middle" x="26" y="211.25" '
               'class="fill-fg" font-size="21.667px">'
-              'Dart · AwaPet'
-              '<title>AwaPet is private; Dart is shown as a non-proportional language marker.</title>'
+              'Dart'
+              '<title>Dart private-repository language marker.</title>'
               '</text>'
           )
           text = text[:label_close] + legend + text[label_close:]
@@ -156,14 +156,14 @@ jobs:
               'stroke-dasharray="12 8" stroke-opacity="0.75">'
               '<animate attributeName="stroke-opacity" values="0.35;1;0.35" '
               'dur="2.6s" repeatCount="indefinite"></animate>'
-              '<title>Dart · AwaPet private</title>'
+              '<title>Dart private</title>'
               '</circle>'
           )
           insert_at = pie_at + len(pie)
           text = text[:insert_at] + ring + text[insert_at:]
 
           path.write_text(text)
-          print("Added Dart / AwaPet private language marker")
+          print("Added private Dart language marker")
           PY
 
       - name: Commit generated profile
