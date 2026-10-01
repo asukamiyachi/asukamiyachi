@@ -32,6 +32,16 @@ The GitHub profile should stay curated: only high-signal items belong in the vis
 ### Design
 - Adobe Illustrator
 - Adobe Photoshop
+- Blender
+- Autodesk Fusion
+- Onshape
+
+### IDE / Embedded / Platform
+- Visual Studio Code
+- Android Studio
+- Arduino IDE
+- MCUXpresso IDE
+- Apple Developer
 
 ### Collaboration / Distribution / Professional
 - Discord
