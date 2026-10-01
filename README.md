@@ -38,13 +38,13 @@
 
 <img src="https://skillicons.dev/icons?i=blender,vscode,androidstudio,arduino&perline=4" alt="Engineering and IDE tools" />
 &nbsp;&nbsp;&nbsp;
-<img src="./assets/fusion-badge.svg" height="48" alt="Autodesk Fusion" title="Autodesk Fusion" />
+<img src="./assets/fusion-badge.svg" height="42" alt="Autodesk Fusion" title="Autodesk Fusion" />
 &nbsp;&nbsp;&nbsp;
-<img src="./assets/onshape-badge.svg" height="48" alt="Onshape" title="Onshape" />
+<img src="./assets/onshape-badge.svg" height="42" alt="Onshape" title="Onshape" />
 &nbsp;&nbsp;&nbsp;
-<img src="./assets/mcuxpresso-badge.svg" height="48" alt="MCUXpresso IDE" title="MCUXpresso IDE" />
+<img src="./assets/mcuxpresso-badge.svg" height="42" alt="MCUXpresso IDE" title="MCUXpresso IDE" />
 &nbsp;&nbsp;&nbsp;
-<img src="./assets/apple-developer-badge.svg" height="48" alt="Apple Developer" title="Apple Developer" />
+<img src="./assets/apple-developer-badge.svg" height="42" alt="Apple Developer" title="Apple Developer" />
 
 <br/><br/>
 
