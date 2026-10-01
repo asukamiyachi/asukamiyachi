@@ -57,10 +57,14 @@ The GitHub profile should stay curated: only high-signal items belong in the vis
 
 ### AI / Tools
 - OpenAI
+- Codex
+- Claude
+- Google Gemini
+- Grok
+- GLM-5.3
 - Qwen
 - Bonsai AI
 - Hugging Face
-- Google Gemini
 - Ghostty
 
 ## Used, but not shown in the main TOOLBOX
