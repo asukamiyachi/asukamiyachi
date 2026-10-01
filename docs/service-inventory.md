@@ -42,6 +42,7 @@ The GitHub profile should stay curated: only high-signal items belong in the vis
 - Arduino IDE
 - MCUXpresso IDE
 - Apple Developer
+- Xcode
 
 ### Collaboration / Distribution / Professional
 - Discord
