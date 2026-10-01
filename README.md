@@ -10,7 +10,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,c,dart,flutter,swift,kotlin,ts,js,lua,nextjs&perline=10" alt="Languages and application stack" />
+<img src="https://skillicons.dev/icons?i=python,c,dart,flutter,swift,kotlin,java,ts,js,lua,nextjs&perline=11" alt="Languages and application stack" />
 
 <br/><br/>
 
