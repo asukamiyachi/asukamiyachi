@@ -12,6 +12,7 @@ The GitHub profile should stay curated: only high-signal items belong in the vis
 - Flutter
 - Swift
 - Kotlin
+- Java
 - TypeScript
 - JavaScript
 - Lua
