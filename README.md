@@ -47,6 +47,8 @@
 <img src="./assets/apple-developer-badge.svg" height="42" alt="Apple Developer" title="Apple Developer" />
 &nbsp;&nbsp;&nbsp;
 <img src="./assets/xcode-logo.svg" height="42" alt="Xcode" title="Xcode" />
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/ichigojam-logo.svg" height="34" alt="IchigoJam" title="IchigoJam" />
 
 <br/><br/>
 
