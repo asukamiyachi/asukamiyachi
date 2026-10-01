@@ -46,7 +46,7 @@ jobs:
           # Each cell receives the same impact envelope, but its start time is
           # delayed by distance from the center so the crest expands outward.
           cell = re.compile(
-              r'(<g transform="translate\\(([-+]?\\d+(?:\\.\\d+)?) ([-+]?\\d+(?:\\.\\d+)?)\\)">)'
+              r'(<g transform="translate\(([-+]?\d+(?:\.\d+)?) ([-+]?\d+(?:\.\d+)?)\)">)'
               r'(?=<(?:animateTransform|rect stroke="none"))'
           )
 
