@@ -45,6 +45,8 @@
 <img src="./assets/mcuxpresso-badge.svg" height="42" alt="MCUXpresso IDE" title="MCUXpresso IDE" />
 &nbsp;&nbsp;&nbsp;
 <img src="./assets/apple-developer-badge.svg" height="42" alt="Apple Developer" title="Apple Developer" />
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/xcode-logo.svg" height="42" alt="Xcode" title="Xcode" />
 
 <br/><br/>
 
