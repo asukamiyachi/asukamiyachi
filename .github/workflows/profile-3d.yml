@@ -140,11 +140,30 @@ jobs:
           print("Applied owner-repository language snapshot (2026-10-28)")
           PY
 
+      - name: Refresh profile image URL cache key
+        run: |
+          python3 - <<'PY'
+          from hashlib import sha256
+          from pathlib import Path
+          import re
+
+          svg = Path("profile-3d-contrib/profile-night-rainbow.svg")
+          readme = Path("README.md")
+          version = sha256(svg.read_bytes()).hexdigest()[:12]
+          body = readme.read_text(encoding="utf-8")
+          pattern = r'(\./profile-3d-contrib/profile-night-rainbow\.svg)(?:\?v=[a-f0-9]{12})?'
+          updated, count = re.subn(pattern, lambda m: m.group(1) + "?v=" + version, body)
+          if count != 1:
+              raise SystemExit(f"Expected one profile image URL, found {count}")
+          readme.write_text(updated, encoding="utf-8")
+          print(f"Refreshed GitHub profile image URL cache key: {version}")
+          PY
+
       - name: Commit generated profile
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add profile-3d-contrib
+          git add profile-3d-contrib README.md
           if git diff --cached --quiet; then
             echo "No profile changes"
             exit 0
