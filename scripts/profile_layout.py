@@ -9,14 +9,14 @@ import xml.etree.ElementTree as ET
 
 TARGET = Path("profile-3d-contrib/profile-night-rainbow.svg")
 FOOTER_START = "<g><text style=\"font-size: 32px; font-weight: bold;\" x=\"384\""
-FOOTER_AFTER = "<g id=\"profile-top-metrics\"><line x1=\"532\" y1=\"194\" x2=\"748\" y2=\"194\" stroke=\"#eeeeff\" stroke-width=\"1\" stroke-opacity=\"0.24\"></line><text style=\"font-size: 32px; font-weight: bold;\" x=\"384\""
+FOOTER_AFTER = "<g id=\"profile-top-metrics\"><line x1=\"442\" y1=\"194\" x2=\"658\" y2=\"194\" stroke=\"#eeeeff\" stroke-width=\"1\" stroke-opacity=\"0.24\"></line><text style=\"font-size: 32px; font-weight: bold;\" x=\"384\""
 REPLACEMENTS = [
-    ("style=\"font-size: 32px; font-weight: bold;\" x=\"384\" y=\"830\" text-anchor=\"end\" class=\"fill-strong\"", "style=\"font-size: 76px; font-weight: bold;\" x=\"640\" y=\"132\" text-anchor=\"middle\" class=\"fill-strong\""),
-    ("style=\"font-size: 24px;\" x=\"394\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 27px;\" x=\"640\" y=\"173\" text-anchor=\"middle\" class=\"fill-fg\""),
-    ("transform=\"translate(608, 802), scale(2)\"", "transform=\"translate(568, 212), scale(2)\""),
-    ("style=\"font-size: 32px; font-weight: bold;\" x=\"650\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 28px; font-weight: bold;\" x=\"614\" y=\"239\" text-anchor=\"start\" class=\"fill-fg\""),
-    ("transform=\"translate(736, 802), scale(2)\"", "transform=\"translate(696, 212), scale(2)\""),
-    ("style=\"font-size: 32px; font-weight: bold;\" x=\"772\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 28px; font-weight: bold;\" x=\"742\" y=\"239\" text-anchor=\"start\" class=\"fill-fg\""),
+    ("style=\"font-size: 32px; font-weight: bold;\" x=\"384\" y=\"830\" text-anchor=\"end\" class=\"fill-strong\"", "style=\"font-size: 76px; font-weight: bold;\" x=\"550\" y=\"132\" text-anchor=\"middle\" class=\"fill-strong\""),
+    ("style=\"font-size: 24px;\" x=\"394\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 27px;\" x=\"550\" y=\"173\" text-anchor=\"middle\" class=\"fill-fg\""),
+    ("transform=\"translate(608, 802), scale(2)\"", "transform=\"translate(478, 212), scale(2)\""),
+    ("style=\"font-size: 32px; font-weight: bold;\" x=\"650\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 28px; font-weight: bold;\" x=\"524\" y=\"239\" text-anchor=\"start\" class=\"fill-fg\""),
+    ("transform=\"translate(736, 802), scale(2)\"", "transform=\"translate(606, 212), scale(2)\""),
+    ("style=\"font-size: 32px; font-weight: bold;\" x=\"772\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 28px; font-weight: bold;\" x=\"652\" y=\"239\" text-anchor=\"start\" class=\"fill-fg\""),
 ]
 
 
