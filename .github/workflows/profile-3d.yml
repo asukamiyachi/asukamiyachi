@@ -117,53 +117,27 @@ jobs:
           print(f"Added radial impact shockwave to {count} contribution cells")
           PY
 
-      - name: Annotate private Dart language
+      - name: Apply recorded language mix to 3D chart
         run: |
           python3 - <<'PY'
           from pathlib import Path
+          import xml.etree.ElementTree as ET
 
-          path = Path("profile-3d-contrib/profile-night-rainbow.svg")
-          text = path.read_text()
-
-          chart = '<g transform="translate(40, 520)">'
-          chart_at = text.find(chart)
-          if chart_at < 0:
-              raise SystemExit("Language chart not found")
-
-          pie = '<g transform="translate(130, 130)">'
-          pie_at = text.find(pie, chart_at)
-          if pie_at < 0:
-              raise SystemExit("Language pie not found")
-
-          label_close = text.rfind('</g>', chart_at, pie_at)
-          if label_close < 0:
-              raise SystemExit("Language legend group end not found")
-
-          legend = (
-              '<rect x="0" y="200.417" width="21.667" height="21.667" '
-              'fill="#00B4AB" class="stroke-bg" stroke-width="1px"></rect>'
-              '<text dominant-baseline="middle" x="26" y="211.25" '
-              'class="fill-fg" font-size="21.667px">'
-              'Dart'
-              '<title>Dart private-repository language marker.</title>'
-              '</text>'
-          )
-          text = text[:label_close] + legend + text[label_close:]
-
-          pie_at = text.find(pie, chart_at)
-          ring = (
-              '<circle r="123" fill="none" stroke="#00B4AB" stroke-width="4" '
-              'stroke-dasharray="12 8" stroke-opacity="0.75">'
-              '<animate attributeName="stroke-opacity" values="0.35;1;0.35" '
-              'dur="2.6s" repeatCount="indefinite"></animate>'
-              '<title>Dart private</title>'
-              '</circle>'
-          )
-          insert_at = pie_at + len(pie)
-          text = text[:insert_at] + ring + text[insert_at:]
-
-          path.write_text(text)
-          print("Added private Dart language marker")
+          target = Path("profile-3d-contrib/profile-night-rainbow.svg")
+          fragment = Path("assets/language-chart-fragment.svg").read_text(encoding="utf-8")
+          svg = target.read_text(encoding="utf-8")
+          start = '<g transform="translate(40, 520)">'
+          footer = '<g><text style="font-size: 32px; font-weight: bold;" x="384"'
+          if svg.count(start) != 1:
+              raise SystemExit("Expected one language chart from 3D generator")
+          chart_start = svg.index(start)
+          chart_end = svg.find(footer, chart_start)
+          if chart_end < 0:
+              raise SystemExit("3D generator footer not found; refusing to write SVG")
+          svg = svg[:chart_start] + fragment + svg[chart_end:]
+          ET.fromstring(svg)
+          target.write_text(svg, encoding="utf-8")
+          print("Applied owner-repository language snapshot (2026-10-28)")
           PY
 
       - name: Commit generated profile

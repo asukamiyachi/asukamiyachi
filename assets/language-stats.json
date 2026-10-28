@@ -1,0 +1,26 @@
+{
+  "measured_at": "2026-10-28",
+  "scope": "26 repositories owned by asukamiyachi, each default branch, including private repositories; 5 externally owned collaboration repositories excluded",
+  "metric": "sum of git blob sizes for recognized source-code extensions; estimated, not GitHub Linguist",
+  "method": "Exclude dependencies, vendored code, compiled build outputs, generated source/data artifacts, and distribution-package copies. Do not count documentation, assets, lockfiles or configuration data. Private repository names and paths are not published.",
+  "repositories_scanned": 26,
+  "repositories_with_recognized_code": 22,
+  "total_source_bytes": 5397139,
+  "languages_bytes": {
+    "TypeScript": 2209850,
+    "Dart": 1020008,
+    "Python": 714315,
+    "Swift": 459517,
+    "JavaScript": 434783,
+    "CSS": 203640,
+    "SQL": 153556,
+    "Shell": 87914,
+    "Lua": 30367,
+    "HTML": 25356,
+    "C++": 20153,
+    "C": 19442,
+    "Kotlin": 7958,
+    "Java": 5472,
+    "Groovy": 4808
+  }
+}
