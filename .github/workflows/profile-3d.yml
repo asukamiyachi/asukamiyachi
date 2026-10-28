@@ -140,6 +140,9 @@ jobs:
           print("Applied owner-repository language snapshot (2026-10-28)")
           PY
 
+      - name: Reposition generated profile metrics
+        run: python3 scripts/profile_layout.py
+
       - name: Refresh profile image URL cache key
         run: |
           python3 - <<'PY'
