@@ -9,14 +9,14 @@ import xml.etree.ElementTree as ET
 
 TARGET = Path("profile-3d-contrib/profile-night-rainbow.svg")
 FOOTER_START = "<g><text style=\"font-size: 32px; font-weight: bold;\" x=\"384\""
-FOOTER_AFTER = "<g id=\"profile-top-metrics\"><line x1=\"370\" y1=\"194\" x2=\"590\" y2=\"194\" stroke=\"#eeeeff\" stroke-width=\"1\" stroke-opacity=\"0.24\"></line><line x1=\"480\" y1=\"212\" x2=\"480\" y2=\"246\" stroke=\"#eeeeff\" stroke-opacity=\"0.25\" stroke-width=\"1\"></line><text style=\"font-size: 32px; font-weight: bold;\" x=\"384\""
+FOOTER_AFTER = "<g id=\"profile-top-metrics\"><line x1=\"370\" y1=\"194\" x2=\"590\" y2=\"194\" stroke=\"#eeeeff\" stroke-width=\"1\" stroke-opacity=\"0.24\"></line><line x1=\"480\" y1=\"215\" x2=\"480\" y2=\"242\" stroke=\"#eeeeff\" stroke-opacity=\"0.25\" stroke-width=\"1\"></line><text style=\"font-size: 32px; font-weight: bold;\" x=\"384\""
 REPLACEMENTS = [
     ("style=\"font-size: 32px; font-weight: bold;\" x=\"384\" y=\"830\" text-anchor=\"end\" class=\"fill-strong\"", "style=\"font-size: 76px; font-weight: bold;\" x=\"480\" y=\"132\" text-anchor=\"middle\" class=\"fill-strong\""),
     ("style=\"font-size: 24px;\" x=\"394\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 27px;\" x=\"480\" y=\"173\" text-anchor=\"middle\" class=\"fill-fg\""),
-    ("transform=\"translate(608, 802), scale(2)\"", "transform=\"translate(398, 212), scale(2)\""),
-    ("style=\"font-size: 32px; font-weight: bold;\" x=\"650\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 28px; font-weight: bold;\" x=\"440\" y=\"239\" text-anchor=\"start\" class=\"fill-fg\""),
-    ("transform=\"translate(736, 802), scale(2)\"", "transform=\"translate(505, 212), scale(2)\""),
-    ("style=\"font-size: 32px; font-weight: bold;\" x=\"772\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 28px; font-weight: bold;\" x=\"547\" y=\"239\" text-anchor=\"start\" class=\"fill-fg\""),
+    ("transform=\"translate(608, 802), scale(2)\"", "transform=\"translate(414, 217), scale(1.5)\""),
+    ("style=\"font-size: 32px; font-weight: bold;\" x=\"650\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 21px; font-weight: bold;\" x=\"444\" y=\"238\" text-anchor=\"start\" class=\"fill-fg\""),
+    ("transform=\"translate(736, 802), scale(2)\"", "transform=\"translate(501, 217), scale(1.5)\""),
+    ("style=\"font-size: 32px; font-weight: bold;\" x=\"772\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 21px; font-weight: bold;\" x=\"531\" y=\"238\" text-anchor=\"start\" class=\"fill-fg\""),
 ]
 
 
