@@ -13,10 +13,10 @@ FOOTER_AFTER = "<g id=\"profile-top-metrics\"><line x1=\"442\" y1=\"194\" x2=\"6
 REPLACEMENTS = [
     ("style=\"font-size: 32px; font-weight: bold;\" x=\"384\" y=\"830\" text-anchor=\"end\" class=\"fill-strong\"", "style=\"font-size: 76px; font-weight: bold;\" x=\"550\" y=\"132\" text-anchor=\"middle\" class=\"fill-strong\""),
     ("style=\"font-size: 24px;\" x=\"394\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 27px;\" x=\"550\" y=\"173\" text-anchor=\"middle\" class=\"fill-fg\""),
-    ("transform=\"translate(608, 802), scale(2)\"", "transform=\"translate(478, 212), scale(2)\""),
-    ("style=\"font-size: 32px; font-weight: bold;\" x=\"650\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 28px; font-weight: bold;\" x=\"524\" y=\"239\" text-anchor=\"start\" class=\"fill-fg\""),
-    ("transform=\"translate(736, 802), scale(2)\"", "transform=\"translate(606, 212), scale(2)\""),
-    ("style=\"font-size: 32px; font-weight: bold;\" x=\"772\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 28px; font-weight: bold;\" x=\"652\" y=\"239\" text-anchor=\"start\" class=\"fill-fg\""),
+    ("transform=\"translate(608, 802), scale(2)\"", "transform=\"translate(454, 212), scale(2)\""),
+    ("style=\"font-size: 32px; font-weight: bold;\" x=\"650\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 28px; font-weight: bold;\" x=\"500\" y=\"239\" text-anchor=\"start\" class=\"fill-fg\""),
+    ("transform=\"translate(736, 802), scale(2)\"", "transform=\"translate(582, 212), scale(2)\""),
+    ("style=\"font-size: 32px; font-weight: bold;\" x=\"772\" y=\"830\" text-anchor=\"start\" class=\"fill-fg\"", "style=\"font-size: 28px; font-weight: bold;\" x=\"628\" y=\"239\" text-anchor=\"start\" class=\"fill-fg\""),
 ]
 
 
