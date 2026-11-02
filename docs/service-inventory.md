@@ -1,9 +1,9 @@
 # Service Inventory
 
-This file is the source of truth for the tools, services, and platforms used in the GitHub profile.
-The README uses the **Full** layout: preserve the existing technical inventory while grouping it by purpose. Items within a group are ordered by current prominence or workflow, not a claim of proficiency.
+This file is the source of truth for tools, services, and platforms displayed in the GitHub profile.
+The README uses the **Full** layout: preserve existing tools, organize by purpose, and show a single icon row per category at desktop width. Logos use a consistent displayed height (30 px); narrow viewports can wrap naturally to avoid clipping. Category order is not a claim of proficiency.
 
-## Main TOOLBOX (visible, seven categories)
+## Main TOOLBOX (six technical categories)
 
 ### Languages
 - TypeScript
@@ -60,28 +60,28 @@ The README uses the **Full** layout: preserve the existing technical inventory w
 - MCUXpresso IDE
 - IchigoJam
 - Ghostty
-
-### Collaboration & Distribution
-- Discord
-- Slack
 - DeployGate
 - Firebase App Tester
 
-## Outside the main TOOLBOX
+## Social & Contact (shown separately below the TOOLBOX)
 
-### Shown under collapsed Professional & Social Services
+- Instagram
+- Discord
+- Slack
 - LinkedIn
 - Facebook
 - Eight
 
-### Used, but not shown in README
-- Instagram
+Instagram is an icon only until the owner supplies a verified profile URL. Other social/service logos are also not personal profile links.
+
+## Used, but not shown in README
+
 - X
 
-## Display policy
+## Display and maintenance policy
 
-- The GitHub profile should prioritize demonstrated technical capabilities, frameworks, delivery platforms, design/engineering tools and development workflows.
-- The core language order follows the latest available owned-repository byte-based snapshot (2026-11-02); it does not imply personal authorship or proficiency ranking.
-- Keep Full-view technologies visible, with source icons capped at five per line for narrow screens and custom icons wrapping naturally.
-- Social media and business-card services belong outside the main TOOLBOX. The separate secondary section does not imply linked personal accounts.
-- Preserve the existing profile hero, generated 3D contributions, language chart and animations when editing the TOOLBOX.
+- Keep all preexisting icons when reorganizing; move collaboration applications to Social & Contact and app-distribution services to Development Tools.
+- The top-five language priority follows the repository-byte snapshot (2026-11-02), which does not establish authorship or skill level.
+- In the GitHub-rendered README, each section uses one inline row at normal desktop widths. It may wrap on mobile because GitHub sanitizes custom CSS.
+- Keep external icon URLs unchanged unless necessary. The Instagram icon is a local copy of Simple Icons (CC0 1.0), source: https://github.com/simple-icons/simple-icons/blob/develop/icons/instagram.svg, recolored to #E4405F.
+- Preserve the existing hero, 3D contribution graphic, language distribution and animation workflow.
