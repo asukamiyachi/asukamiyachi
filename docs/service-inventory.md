@@ -1,62 +1,35 @@
 # Service Inventory
 
-This file is the source of truth for tools, services, and platforms Asuka has used.
-The GitHub profile should stay curated: only high-signal items belong in the visible TOOLBOX.
+This file is the source of truth for the tools, services, and platforms used in the GitHub profile.
+The README uses the **Full** layout: preserve the existing technical inventory while grouping it by purpose. Items within a group are ordered by current prominence or workflow, not a claim of proficiency.
 
-## Visible in profile
+## Main TOOLBOX (visible, seven categories)
 
-### Languages / Frameworks
-- Python
-- C
+### Languages
+- TypeScript
 - Dart
-- Flutter
+- JavaScript
+- Python
 - Swift
 - Kotlin
+- C
 - Java
-- TypeScript
-- JavaScript
 - Lua
+
+### Frameworks
+- Flutter
 - Next.js
 
-### Cloud / Development
+### Cloud & Backend
 - Firebase
 - Supabase
 - Vercel
 - Cloudflare
 - Google Cloud
 - Docker
-- Git
-- Figma
 - Tailscale
-- Bambu Lab
 
-### Design
-- Adobe Illustrator
-- Adobe Photoshop
-- Blender
-- Autodesk Fusion
-- Onshape
-
-### IDE / Embedded / Platform
-- Visual Studio Code
-- Android Studio
-- Arduino IDE
-- MCUXpresso IDE
-- Apple Developer
-- Xcode
-- IchigoJam
-
-### Collaboration / Distribution / Professional
-- Discord
-- GitHub
-- Slack
-- DeployGate
-- Firebase App Tester
-- LinkedIn
-- Facebook
-- Eight
-
-### AI / Tools
+### AI & Agents
 - OpenAI
 - Codex
 - Claude
@@ -66,23 +39,49 @@ The GitHub profile should stay curated: only high-signal items belong in the vis
 - Qwen
 - Bonsai AI
 - Hugging Face
+
+### Design & Engineering
+- Figma
+- Adobe Illustrator
+- Adobe Photoshop
+- Blender
+- Autodesk Fusion
+- Onshape
+- Bambu Lab
+
+### Development Tools
+- Git
+- Visual Studio Code
+- Android Studio
+- Arduino IDE
+- GitHub
+- Xcode
+- Apple Developer
+- MCUXpresso IDE
+- IchigoJam
 - Ghostty
 
-## Used, but not shown in the main TOOLBOX
+### Collaboration & Distribution
+- Discord
+- Slack
+- DeployGate
+- Firebase App Tester
 
-These are intentionally kept out of the primary profile for now so the profile does not become a logo wall.
+## Outside the main TOOLBOX
 
-### Social / Professional
+### Shown under collapsed Professional & Social Services
+- LinkedIn
+- Facebook
+- Eight
+
+### Used, but not shown in README
 - Instagram
 - X
 
 ## Display policy
 
-Promote an item into the visible TOOLBOX when at least one of these is true:
-
-- it represents a real technical capability;
-- it is used repeatedly in active projects;
-- it helps explain how products are built, shipped, tested, or operated;
-- it adds meaningful signal to the profile instead of only showing account ownership.
-
-Social-network and business-card services should normally stay out of TOOLBOX unless they are being used as public contact links.
+- The GitHub profile should prioritize demonstrated technical capabilities, frameworks, delivery platforms, design/engineering tools and development workflows.
+- The core language order follows the latest available owned-repository byte-based snapshot (2026-11-02); it does not imply personal authorship or proficiency ranking.
+- Keep Full-view technologies visible, with source icons capped at five per line for narrow screens and custom icons wrapping naturally.
+- Social media and business-card services belong outside the main TOOLBOX. The separate secondary section does not imply linked personal accounts.
+- Preserve the existing profile hero, generated 3D contributions, language chart and animations when editing the TOOLBOX.
