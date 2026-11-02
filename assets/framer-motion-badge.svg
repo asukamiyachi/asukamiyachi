@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" role="img" aria-label="Framer Motion (custom icon)">
+  <title>Framer Motion — custom FM monogram</title>
+  <defs><linearGradient id="fm-gradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#AB55FF"/><stop offset="1" stop-color="#FF3B8D"/></linearGradient></defs>
+  <rect width="40" height="40" rx="9" fill="url(#fm-gradient)"/>
+  <path d="M8 28V12h10m-10 8h8" fill="none" stroke="#fff" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M21 28V12l5 9 5-9v16" fill="none" stroke="#fff" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

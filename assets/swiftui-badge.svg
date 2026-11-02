@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" role="img" aria-label="SwiftUI (custom icon)">
+  <title>SwiftUI — custom UI monogram</title>
+  <defs><linearGradient id="ui-gradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#39C9FA"/><stop offset="1" stop-color="#2957DC"/></linearGradient></defs>
+  <rect width="40" height="40" rx="9" fill="url(#ui-gradient)"/>
+  <path d="m8 14-5 6 5 6m24-12 5 6-5 6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="20" y="24.4" fill="#fff" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">UI</text>
+</svg>

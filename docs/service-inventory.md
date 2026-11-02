@@ -16,9 +16,15 @@ The README uses the **Full** layout: preserve existing tools, organize by purpos
 - Java
 - Lua
 
-### Frameworks
+### Frameworks & Libraries
 - Flutter
 - Next.js
+- React
+- Tailwind CSS
+- Express
+- SwiftUI
+- Riverpod
+- Framer Motion
 
 ### Cloud & Backend
 - Firebase
@@ -54,6 +60,9 @@ The README uses the **Full** layout: preserve existing tools, organize by purpos
 - Visual Studio Code
 - Android Studio
 - Arduino IDE
+- Vite
+- Vitest
+- Playwright
 - GitHub
 - Xcode
 - Apple Developer
@@ -84,4 +93,8 @@ Instagram is an icon only until the owner supplies a verified profile URL. Other
 - The top-five language priority follows the repository-byte snapshot (2026-11-02), which does not establish authorship or skill level.
 - In the GitHub-rendered README, each section uses one inline row at normal desktop widths. It may wrap on mobile because GitHub sanitizes custom CSS.
 - Keep external icon URLs unchanged unless necessary. The Instagram icon is a local copy of Simple Icons (CC0 1.0), source: https://github.com/simple-icons/simple-icons/blob/develop/icons/instagram.svg, recolored to #E4405F.
+- The nine added technologies were selected from directly declared dependencies, development dependencies, and SwiftUI source imports across 35 accessible repositories. Dependency declarations alone do not prove individual authorship or runtime validation.
+- Framework and tool icons reuse existing Skill Icons URLs. Riverpod and Playwright use upstream SVG artwork; SwiftUI and Framer Motion use custom monograms to avoid mislabeling other products as official icons.
+  - Riverpod logo: https://github.com/rrousselGit/riverpod/blob/master/website/static/img/logo.svg
+  - Playwright logo: https://github.com/microsoft/playwright/blob/main/packages/web/src/assets/playwright-logo.svg
 - Preserve the existing hero, 3D contribution graphic, language distribution and animation workflow.

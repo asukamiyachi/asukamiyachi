@@ -15,9 +15,12 @@
   <img src="https://skillicons.dev/icons?i=ts,dart,js,python,swift,kotlin,c,java,lua&amp;perline=9" height="30" alt="TypeScript, Dart, JavaScript, Python, Swift, Kotlin, C, Java, Lua" />
 </p>
 
-<h4>FRAMEWORKS</h4>
+<h4>FRAMEWORKS &amp; LIBRARIES</h4>
 <p>
-  <img src="https://skillicons.dev/icons?i=flutter,nextjs&amp;perline=2" height="30" alt="Flutter, Next.js" />
+  <img src="https://skillicons.dev/icons?i=flutter,nextjs,react,tailwind,express&amp;perline=5" height="30" alt="Flutter, Next.js, React, Tailwind CSS, Express" />
+  <img src="./assets/swiftui-badge.svg" height="30" alt="SwiftUI" title="SwiftUI" />
+  <img src="./assets/riverpod-logo.svg" height="30" alt="Riverpod" title="Riverpod" />
+  <img src="./assets/framer-motion-badge.svg" height="30" alt="Framer Motion" title="Framer Motion" />
 </p>
 
 <h4>CLOUD &amp; BACKEND</h4>
@@ -53,6 +56,8 @@
 <h4>DEVELOPMENT TOOLS</h4>
 <p>
   <img src="https://skillicons.dev/icons?i=git,vscode,androidstudio,arduino&amp;perline=4" height="30" alt="Git, Visual Studio Code, Android Studio, Arduino IDE" />
+  <img src="https://skillicons.dev/icons?i=vite,vitest&amp;perline=2" height="30" alt="Vite, Vitest" />
+  <img src="./assets/playwright-logo.svg" height="30" alt="Playwright" title="Playwright" />
   <img src="./assets/github-logo.svg" height="30" alt="GitHub" title="GitHub" />
   <img src="./assets/xcode-logo.svg" height="30" alt="Xcode" title="Xcode" />
   <img src="./assets/apple-developer-badge.svg" height="30" alt="Apple Developer" title="Apple Developer" />
