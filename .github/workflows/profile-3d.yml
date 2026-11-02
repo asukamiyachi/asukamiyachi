@@ -137,7 +137,7 @@ jobs:
           svg = svg[:chart_start] + fragment + svg[chart_end:]
           ET.fromstring(svg)
           target.write_text(svg, encoding="utf-8")
-          print("Applied owner-repository language snapshot (2026-10-28)")
+          print("Applied owner-repository language snapshot (2026-11-02)")
           PY
 
       - name: Reposition generated profile metrics
