@@ -3,7 +3,7 @@
   <source media="(max-width: 600px)" srcset="./assets/hero-v4-japanese-mobile.svg" />
   <img src="./assets/hero-v4-japanese.svg" width="100%" align="top" alt="Asuka Miyachi — Japanese-inspired profile hero" />
 </picture>
-<img src="./profile-3d-contrib/profile-night-rainbow.svg?v=0440c52b4ce0" width="100%" align="top" alt="Asuka Miyachi’s 3D GitHub contribution graph, animated shockwaves, and source-code language mix across 29 owned repositories (2026-11-02)" />
+<img src="./profile-3d-contrib/profile-night-rainbow.svg?v=7d8c4aa35223" width="100%" align="top" alt="Asuka Miyachi’s 3D GitHub contribution graph, animated shockwaves, and source-code language mix across 29 owned repositories (2026-11-02)" />
 </div>
 
 <h3 align="center">TOOLBOX</h3>
